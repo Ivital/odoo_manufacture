@@ -17,3 +17,10 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp_production_location_picking_type.field_stock_picking_type__production_location_id
 msgid "Production Location"
 msgstr "Місце виробництва"
+
+#. module: mrp_production_location_picking_type
+#: model:ir.model.fields,help:mrp_production_location_picking_type.field_stock_picking_type__production_location_id
+msgid ""
+"Default production location for manufacturing operations using this "
+"operation type."
+msgstr "Типове виробниче місце для виробничих операцій із цим типом операції."

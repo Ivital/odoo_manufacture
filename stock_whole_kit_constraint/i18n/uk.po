@@ -19,3 +19,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_whole_kit_constraint.field_stock_move__allow_partial_kit_delivery
 msgid "Allow Partial Kit Delivery"
 msgstr "Дозволити часткову доставку комплекту"
+
+#. module: stock_whole_kit_constraint
+#: model:ir.model.fields,help:stock_whole_kit_constraint.field_product_product__allow_partial_kit_delivery
+#: model:ir.model.fields,help:stock_whole_kit_constraint.field_product_template__allow_partial_kit_delivery
+msgid ""
+"If not set, and this product is delivered with a BoM of type kit, partial "
+"deliveries of the components won't be allowed."
+msgstr ""
+"Якщо не задано і цей товар доставляється як комплект BoM, часткові поставки "
+"компонентів не дозволятимуться."

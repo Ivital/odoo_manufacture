@@ -113,3 +113,28 @@ msgid ""
 " you sure you want to proceed?"
 msgstr ""
 "Ви активуєте BOM, після чого редагувати її буде неможливо. Продовжити?"
+
+#. module: mrp_bom_version
+#: model:mail.message.subtype,description:mrp_bom_version.mt_active
+#: model:mail.message.subtype,name:mrp_bom_version.mt_active
+msgid "MRP BoM Active"
+msgstr "Активність специфікації MRP"
+
+#. module: mrp_bom_version
+#: model:res.groups,name:mrp_bom_version.group_mrp_bom_version
+msgid "MRP BoM version"
+msgstr "Версія специфікації MRP"
+
+#. module: mrp_bom_version
+#: model:ir.model.fields,help:mrp_bom_version.field_res_config_settings__group_mrp_bom_version
+msgid "The active state may be passed back to state draft"
+msgstr "Активний стан можна повернути в стан чернетки"
+
+#. module: mrp_bom_version
+#: model:ir.model.fields,help:mrp_bom_version.field_res_config_settings__active_draft
+msgid ""
+"This will allow you to define if those BoM passed back to draft are still "
+"activated or not"
+msgstr ""
+"Дає змогу визначити, чи залишаються активними специфікації, повернуті в "
+"чернетку"

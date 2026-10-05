@@ -141,3 +141,27 @@ msgstr "Перевірки якості з переміщення не прой�
 #: model:ir.model.fields,help:quality_control_stock_oca.field_qc_inspection__picking_origin
 msgid "Reference of the document"
 msgstr "Посилання на документ"
+
+#. module: quality_control_stock_oca
+#: model:ir.model.fields,help:quality_control_stock_oca.field_qc_trigger__inspection_per_lot
+msgid ""
+"If checked, an inspection per used lot/serial number will be created in "
+"stock pickings."
+msgstr ""
+"Якщо позначено, у складських комплектуваннях створюватиметься окрема "
+"перевірка для кожної використаної партії/серійного номера."
+
+#. module: quality_control_stock_oca
+#: model:ir.model.fields,help:quality_control_stock_oca.field_stock_lot__qc_inspections_ids
+msgid "Inspections related to this lot."
+msgstr "Перевірки, пов’язані з цією партією."
+
+#. module: quality_control_stock_oca
+#: model:ir.model.fields,help:quality_control_stock_oca.field_stock_picking__qc_inspections_ids
+msgid "Inspections related to this picking."
+msgstr "Перевірки, пов’язані з цим переміщенням."
+
+#. module: quality_control_stock_oca
+#: model:ir.model,name:quality_control_stock_oca.model_qc_inspection_line
+msgid "Quality control inspection line"
+msgstr "Рядок перевірки контролю якості"

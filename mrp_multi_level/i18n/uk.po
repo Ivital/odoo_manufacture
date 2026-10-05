@@ -785,3 +785,92 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__mrp_verified
 msgid "Verified for MRP"
 msgstr "Перевірено для MRP"
+
+#. module: mrp_multi_level
+#: model:res.groups,name:mrp_multi_level.group_change_mrp_procure_qty
+msgid "Change procure quantity in MRP"
+msgstr "Змінити кількість забезпечення в MRP"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,help:mrp_multi_level.field_mrp_planned_order__due_date
+msgid "Date in which the supply must have been completed."
+msgstr "Дата, до якої постачання має бути завершено."
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,help:mrp_multi_level.field_product_mrp_area__mrp_verified
+msgid ""
+"Identifies that this product has been verified to be valid for the MRP."
+msgstr "Означає, що цей товар перевірено й підтверджено як придатний для MRP."
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,help:mrp_multi_level.field_mrp_multi_level__mrp_area_ids
+msgid "If empty, all areas will be computed."
+msgstr "Якщо порожньо, будуть розраховані всі області."
+
+#. module: mrp_multi_level
+#: model:ir.model,name:mrp_multi_level.model_mrp_inventory_procure_item
+msgid "MRP Inventory procure item"
+msgstr "Елемент забезпечення запасів MRP"
+
+#. module: mrp_multi_level
+#: model:ir.model,name:mrp_multi_level.model_mrp_move
+msgid "MRP Move"
+msgstr "Переміщення MRP"
+
+#. module: mrp_multi_level
+#: model:ir.model,name:mrp_multi_level.model_mrp_inventory
+msgid "MRP inventory projections"
+msgstr "Прогнози запасів MRP"
+
+#. module: mrp_multi_level
+#: model:ir.model,name:mrp_multi_level.model_mrp_inventory_procure
+msgid "Make Procurements from MRP inventory projections"
+msgstr "Створювати забезпечення з прогнозів запасів MRP"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,help:mrp_multi_level.field_product_mrp_area__mrp_nbr_days
+msgid ""
+"Number of days to group demand for this product during the MRP run, in order"
+" to determine the quantity to order."
+msgstr ""
+"Кількість днів для групування попиту на цей товар під час запуску MRP, щоб "
+"визначити кількість до замовлення."
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,help:mrp_multi_level.field_mrp_planned_order__order_release_date
+msgid "Order release date planned by MRP."
+msgstr "Дата випуску замовлення, запланована MRP."
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,help:mrp_multi_level.field_mrp_inventory__rfq_qty
+msgid ""
+"Quantity on Request for Quotation.\n"
+"This quantity is included in the supply quantity but it is not confirmed yet."
+msgstr ""
+"Кількість у запиті комерційної пропозиції.\n"
+"Вона входить до кількості постачання, але ще не підтверджена."
+
+#. module: mrp_multi_level
+#: model:res.groups,name:mrp_multi_level.group_mrp_multi_level_run
+msgid "Run MRP Manually"
+msgstr "Запустити MRP вручну"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,help:mrp_multi_level.field_product_mrp_area__location_proc_id
+msgid ""
+"Set this if you need to procure from a different locationthan area's "
+"location."
+msgstr ""
+"Задайте, якщо потрібно виконувати забезпечення з місця, відмінного від місця"
+" області."
+
+#. module: mrp_multi_level
+#: model:ir.model.constraint,message:mrp_multi_level.constraint_product_mrp_area_product_mrp_area_uniq
+msgid "The product/MRP Area parameters combination must be unique."
+msgstr "Комбінація параметрів товару/області MRP має бути унікальною."
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,help:mrp_multi_level.field_mrp_inventory__running_availability
+msgid "Theoretical inventory level if all planned orders were released."
+msgstr ""
+"Теоретичний рівень запасів, якби всі заплановані замовлення були випущені."

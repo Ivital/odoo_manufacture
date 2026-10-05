@@ -17,3 +17,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp_workcenter_scrap_reason.field_scrap_reason_code__mrp_workcenter_ids
 msgid "Allowed Work Centers"
 msgstr "Дозволені робочі центри"
+
+#. module: mrp_workcenter_scrap_reason
+#: model:ir.model.fields,help:mrp_workcenter_scrap_reason.field_scrap_reason_code__mrp_workcenter_ids
+msgid ""
+"Indicate the work centers that can use this reason code when doing a scrap. "
+"If left empy, this reason code can be used with any work center."
+msgstr ""
+"Вкажіть робочі центри, які можуть використовувати цей код причини під час "
+"списання. Якщо залишити порожнім, код причини можна використовувати з будь-"
+"яким робочим центром."

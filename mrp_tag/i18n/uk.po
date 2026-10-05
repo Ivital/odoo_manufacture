@@ -85,3 +85,8 @@ msgstr "Створити нові теги для виробничого зам�
 #: model:ir.model.constraint,message:mrp_tag.constraint_mrp_tag_tag_name_uniq
 msgid "Tag name already exists !"
 msgstr "Тег із такою назвою вже існує!"
+
+#. module: mrp_tag
+#: model:ir.model,name:mrp_tag.model_mrp_tag
+msgid "MRP Tag"
+msgstr "Тег MRP"

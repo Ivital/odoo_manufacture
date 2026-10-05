@@ -62,3 +62,23 @@ msgstr "Рядки специфікації з розділами та прим�
 #: model_terms:ir.ui.view,arch_db:mrp_bom_widget_section_and_note_one2many.mrp_bom_form_view_section
 msgid "Components And Sections"
 msgstr "Компоненти та секції"
+
+#. module: mrp_bom_widget_section_and_note_one2many
+#: model:ir.model.constraint,message:mrp_bom_widget_section_and_note_one2many.constraint_mrp_bom_line_non_bom_null_fields
+msgid "Forbidden values on note and section bom line"
+msgstr "Заборонені значення в рядку примітки та секції специфікації"
+
+#. module: mrp_bom_widget_section_and_note_one2many
+#: model:ir.model.constraint,message:mrp_bom_widget_section_and_note_one2many.constraint_mrp_bom_line_bom_required_field_uom
+msgid "Missing required field on bom line : uom."
+msgstr "Відсутнє обов’язкове поле в рядку специфікації: uom."
+
+#. module: mrp_bom_widget_section_and_note_one2many
+#: model:ir.model.constraint,message:mrp_bom_widget_section_and_note_one2many.constraint_mrp_bom_line_bom_required_fields_product_qty
+msgid "Missing required fields on bom line : product and quantity."
+msgstr "У рядку специфікації відсутні обов’язкові поля: товар і кількість."
+
+#. module: mrp_bom_widget_section_and_note_one2many
+#: model:ir.model.fields,help:mrp_bom_widget_section_and_note_one2many.field_mrp_bom_line__display_type
+msgid "Technical field for UX purpose."
+msgstr "Технічне поле для потреб UX."

@@ -108,3 +108,9 @@ msgid ""
 msgstr ""
 "Ви намагаєтеся призупинити/завершити робоче замовлення, але період блокування ще не минув.\n"
 "                                Ви впевнені, що хочете продовжити?"
+
+#. module: mrp_workorder_blocking_time
+#: model:ir.model,name:mrp_workorder_blocking_time.model_mrp_workorder_blocking_reason_wizard
+msgid "Wizard to open a blocking reason popup for a workorder"
+msgstr ""
+"Майстер відкриття спливного вікна причини блокування для робочого замовлення"

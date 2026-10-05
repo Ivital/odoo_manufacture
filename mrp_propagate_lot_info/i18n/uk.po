@@ -76,3 +76,22 @@ msgstr "Профіль поширення партії MRP"
 #: model:ir.model.fields,field_description:mrp_propagate_lot_info.field_mrp_bom_byproduct__propagate_lot_info
 msgid "Propagate Lot Info"
 msgstr "Поширювати інформацію про партію"
+
+#. module: mrp_propagate_lot_info
+#: model:ir.model.fields,help:mrp_propagate_lot_info.field_product_category__mrp_propagate_lot_profile_id
+msgid ""
+"Default lot propagation profile for consumed components in manufacturing."
+msgstr ""
+"Типовий профіль поширення партії для компонентів, спожитих у виробництві."
+
+#. module: mrp_propagate_lot_info
+#: model:ir.model,name:mrp_propagate_lot_info.model_mrp_lot_info_propagation_profile
+msgid "MRP Lot Info Propagation Profile"
+msgstr "Профіль передавання інформації партії MRP"
+
+#. module: mrp_propagate_lot_info
+#: model:ir.model.fields,help:mrp_propagate_lot_info.field_mrp_bom_byproduct__propagate_lot_info
+msgid "Propagate the configured component lot values to this by-product lot."
+msgstr ""
+"Перенести налаштовані значення лота компонента до лота цього побічного "
+"продукту."

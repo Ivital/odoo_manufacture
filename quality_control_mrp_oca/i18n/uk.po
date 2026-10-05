@@ -44,3 +44,13 @@ msgstr "перевірки"
 #: model:ir.actions.act_window,name:quality_control_mrp_oca.action_qc_inspection_per_production
 msgid "Quality inspections from production order"
 msgstr "Перевірки якості з виробничого замовлення"
+
+#. module: quality_control_mrp_oca
+#: model:ir.model.fields,help:quality_control_mrp_oca.field_mrp_production__qc_inspections_ids
+msgid "Inspections related to this production."
+msgstr "Перевірки, пов’язані з цим виробництвом."
+
+#. module: quality_control_mrp_oca
+#: model:qc.trigger,name:quality_control_mrp_oca.qc_trigger_mrp
+msgid "Production done"
+msgstr "Виробництво завершено"

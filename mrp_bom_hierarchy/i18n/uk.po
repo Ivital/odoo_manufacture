@@ -72,3 +72,15 @@ msgstr "Переглянути специфікацію товару"
 #: model_terms:ir.ui.view,arch_db:mrp_bom_hierarchy.mrp_bom_hierarchy_tree_view
 msgid "View product's other BoMs"
 msgstr "Переглянути інші специфікації товару"
+
+#. module: mrp_bom_hierarchy
+#. odoo-python
+#: code:addons/mrp_bom_hierarchy/model/mrp_bom.py:0
+msgid "This operator is not supported"
+msgstr "Цей оператор не підтримується"
+
+#. module: mrp_bom_hierarchy
+#. odoo-python
+#: code:addons/mrp_bom_hierarchy/model/mrp_bom.py:0
+msgid "Value should be True or False (not %s)"
+msgstr "Значення має бути True або False (не %s)"

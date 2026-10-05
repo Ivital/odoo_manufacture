@@ -18,3 +18,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp_multi_level_consume_safety_stock.field_product_mrp_area__safety_stock_target_date
 msgid "Safety stock lead date"
 msgstr "Дата випередження страхового запасу"
+
+#. module: mrp_multi_level_consume_safety_stock
+#: model:ir.model.fields,help:mrp_multi_level_consume_safety_stock.field_product_mrp_area__safety_stock_target_date
+msgid "The date when we can restart supplying for this product"
+msgstr "Дата, коли можна відновити постачання цього товару"
+
+#. module: mrp_multi_level_consume_safety_stock
+#: model:ir.model.fields,help:mrp_multi_level_consume_safety_stock.field_mrp_area__safety_stock_target_date
+msgid "We will start rebuilding safety stock on that date"
+msgstr "Почнемо відновлювати страховий запас у цю дату"

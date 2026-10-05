@@ -43,3 +43,8 @@ msgstr "Попередження виробництва"
 #: model_terms:ir.ui.view,arch_db:mrp_bom_warn_message_oca.mrp_bom_form_view_warn_inherit
 msgid "Write your warn message..."
 msgstr "Напишіть текст попередження..."
+
+#. module: mrp_bom_warn_message_oca
+#: model:res.groups,name:mrp_bom_warn_message_oca.group_warning_mrp_bom
+msgid "A warning can be set on a MRP BOM (MRP)"
+msgstr "Для специфікації MRP можна встановити попередження"

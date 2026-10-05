@@ -118,3 +118,36 @@ msgid ""
 msgstr ""
 "Ви збираєтеся масово виконати виробниче замовлення з поширенням номера "
 "партії."
+
+#. module: mrp_lot_number_propagation
+#: model:ir.model.fields,help:mrp_lot_number_propagation.field_mrp_bom__lot_number_propagation
+msgid ""
+"Allow to propagate the lot/serial number from a component to the finished "
+"product."
+msgstr ""
+"Дозволяє поширювати номер партії/серійний номер з компонента на готовий "
+"товар."
+
+#. module: mrp_lot_number_propagation
+#: model:ir.model,name:mrp_lot_number_propagation.model_mrp_batch_produce_propagate
+msgid "Batch production with lot number propagation"
+msgstr "Пакетне виробництво з передаванням номера партії"
+
+#. module: mrp_lot_number_propagation
+#: model:ir.model.fields,help:mrp_lot_number_propagation.field_mrp_batch_produce__is_lot_number_propagated
+#: model:ir.model.fields,help:mrp_lot_number_propagation.field_mrp_production__is_lot_number_propagated
+msgid ""
+"Lot/serial number is propagated from a component to the finished product."
+msgstr ""
+"Номер партії/серійний номер передається від компонента до готового виробу."
+
+#. module: mrp_lot_number_propagation
+#: model:ir.model.fields,help:mrp_lot_number_propagation.field_mrp_production__propagated_lot_producing
+msgid ""
+"The BoM used on this manufacturing order is set to propagate lot number from"
+" one of its components. The value will be computed once the corresponding "
+"component is selected."
+msgstr ""
+"Специфікацію, що використовується в цьому виробничому замовленні, "
+"налаштовано на поширення номера партії з одного з компонентів. Значення буде"
+" обчислено після вибору відповідного компонента."

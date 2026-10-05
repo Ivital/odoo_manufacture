@@ -159,3 +159,42 @@ msgstr "Вироблений товар"
 #: model:ir.model.fields,field_description:mrp_mass_production_order.field_mrp_mass_production_order_entry_wizard__product_qty
 msgid "Manufactured Quantity"
 msgstr "Вироблена кількість"
+
+#. module: mrp_mass_production_order
+#: model:ir.model.fields,help:mrp_mass_production_order.field_mrp_mass_production_order_entry_wizard__bom_id
+msgid ""
+"Bills of Materials, also called recipes, are used to autocomplete components"
+" and work order instructions."
+msgstr ""
+"Специфікації, також відомі як рецептури, використовуються для автозаповнення"
+" компонентів та інструкцій робочих замовлень."
+
+#. module: mrp_mass_production_order
+#: model:ir.model.fields,help:mrp_mass_production_order.field_mrp_mass_production_order_wizard__produce_all
+msgid ""
+"Check it if all orders have been produced otherwise they will be confirmed"
+msgstr "Позначте, якщо всі замовлення вироблено; інакше їх буде підтверджено"
+
+#. module: mrp_mass_production_order
+#: model:ir.model.fields,help:mrp_mass_production_order.field_mrp_mass_production_order_wizard__with_bom
+msgid ""
+"Check this if you want to assign a bill of materials, otherwise products by "
+"line."
+msgstr ""
+"Позначте, якщо потрібно призначати специфікацію; інакше "
+"використовуватимуться товари по рядках."
+
+#. module: mrp_mass_production_order
+#: model:ir.model.fields,help:mrp_mass_production_order.field_mrp_mass_production_order_wizard__location_src_id
+msgid "Location where the system will look for components."
+msgstr "Місце, де система шукатиме компоненти."
+
+#. module: mrp_mass_production_order
+#: model:ir.model.fields,help:mrp_mass_production_order.field_mrp_mass_production_order_wizard__location_dest_id
+msgid "Location where the system will stock the finished products."
+msgstr "Місце, де система зберігатиме готову продукцію."
+
+#. module: mrp_mass_production_order
+#: model:ir.model,name:mrp_mass_production_order.model_mrp_mass_production_order_wizard
+msgid "Multiple MRP production order"
+msgstr "Кілька виробничих замовлень MRP"

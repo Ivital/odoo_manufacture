@@ -32,3 +32,8 @@ msgstr "Зіставляти за атрибутами"
 #: model:ir.model.fields,field_description:mrp_bom_attribute_match.field_mrp_bom_line__product_uom_category_id
 msgid "Product Uom Category"
 msgstr "Категорія одиниці виміру товару"
+
+#. module: mrp_bom_attribute_match
+#: model:ir.model.fields,help:mrp_bom_attribute_match.field_mrp_bom_line__product_backup_id
+msgid "Technical field to store previous value of product_id"
+msgstr "Технічне поле для зберігання попереднього значення product_id"

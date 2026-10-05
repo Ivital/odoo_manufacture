@@ -43,3 +43,25 @@ msgstr "Поширення пакунка"
 #: model:ir.model.fields,field_description:mrp_package_propagation.field_mrp_production__propagated_package_id
 msgid "Propagated package"
 msgstr "Поширений пакунок"
+
+#. module: mrp_package_propagation
+#: model:ir.model.fields,help:mrp_package_propagation.field_mrp_bom__package_propagation
+msgid ""
+"Allow to propagate the package from a component to the finished product."
+msgstr "Дозволяє поширювати пакування з компонента на готовий товар."
+
+#. module: mrp_package_propagation
+#: model:ir.model.fields,help:mrp_package_propagation.field_mrp_production__is_package_propagated
+msgid "Package is propagated from a component to the finished product."
+msgstr "Пакунок переноситься з компонента до готового продукту."
+
+#. module: mrp_package_propagation
+#: model:ir.model.fields,help:mrp_package_propagation.field_mrp_production__propagated_package_id
+msgid ""
+"The BoM used on this manufacturing order is set to propagate package from "
+"one of its components. The value will be computed once the corresponding "
+"component is selected."
+msgstr ""
+"Специфікацію, що використовується в цьому виробничому замовленні, "
+"налаштовано на поширення пакування з одного з компонентів. Значення буде "
+"обчислено після вибору відповідного компонента."

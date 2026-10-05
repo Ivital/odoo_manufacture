@@ -53,3 +53,13 @@ msgstr "Виробничі замовлення"
 #: model_terms:ir.ui.view,arch_db:mrp_sale_info.mrp_production_workorder_form_view_inherit
 msgid "Sale information"
 msgstr "Інформація про продаж"
+
+#. module: mrp_sale_info
+#: model:ir.model.fields,help:mrp_sale_info.field_mrp_production__commitment_date
+#: model:ir.model.fields,help:mrp_sale_info.field_mrp_workorder__commitment_date
+msgid ""
+"This is the delivery date promised to the customer. If set, the delivery "
+"order will be scheduled based on this date rather than product lead times."
+msgstr ""
+"Це дата доставки, обіцяна клієнту. Якщо задано, замовлення на доставку буде "
+"заплановано за цією датою, а не за строками постачання товарів."

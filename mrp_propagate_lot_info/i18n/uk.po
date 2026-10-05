@@ -61,3 +61,18 @@ msgstr "Поля партії для поширення"
 #: model:ir.model.fields,field_description:mrp_propagate_lot_info.field_mrp_production__propagate_lot_profile_id
 msgid "Lot propagation profile"
 msgstr "Профіль поширення партії"
+
+#. module: mrp_propagate_lot_info
+#: model:ir.model.fields,field_description:mrp_propagate_lot_info.field_mrp_production__propagate_lot_bom_line_id
+msgid "BoM line propagating lot"
+msgstr "Партія, що поширюється рядком специфікації"
+
+#. module: mrp_propagate_lot_info
+#: model:ir.model.fields,field_description:mrp_propagate_lot_info.field_product_category__mrp_propagate_lot_profile_id
+msgid "MRP Lot Propagation Profile"
+msgstr "Профіль поширення партії MRP"
+
+#. module: mrp_propagate_lot_info
+#: model:ir.model.fields,field_description:mrp_propagate_lot_info.field_mrp_bom_byproduct__propagate_lot_info
+msgid "Propagate Lot Info"
+msgstr "Поширювати інформацію про партію"

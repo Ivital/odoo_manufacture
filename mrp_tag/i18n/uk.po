@@ -75,3 +75,13 @@ msgstr "Останнє оновлення ким"
 #: model:ir.model.fields,field_description:mrp_tag.field_mrp_tag__write_date
 msgid "Last Updated on"
 msgstr "Останнє оновлення"
+
+#. module: mrp_tag
+#: model_terms:ir.actions.act_window,help:mrp_tag.mrp_tag_action
+msgid "Create new tags for your manufacture order"
+msgstr "Створити нові теги для виробничого замовлення"
+
+#. module: mrp_tag
+#: model:ir.model.constraint,message:mrp_tag.constraint_mrp_tag_tag_name_uniq
+msgid "Tag name already exists !"
+msgstr "Тег із такою назвою вже існує!"

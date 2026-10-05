@@ -39,3 +39,31 @@ msgstr "Кількість товару:"
 #: model_terms:ir.ui.view,arch_db:mrp_bom_tracking.track_bom_template
 msgid "component<br/>"
 msgstr "компонент<br/>"
+
+#. module: mrp_bom_tracking
+#: model_terms:ir.ui.view,arch_db:mrp_bom_tracking.track_bom_template_2
+msgid ""
+":\n"
+"                New component<br/>"
+msgstr ""
+":\n"
+"                Новий компонент<br/>"
+
+#. module: mrp_bom_tracking
+#: model_terms:ir.ui.view,arch_db:mrp_bom_tracking.track_bom_template_2
+msgid ""
+":\n"
+"                Removed component<br/>"
+msgstr ""
+":\n"
+"                Видалений компонент<br/>"
+
+#. module: mrp_bom_tracking
+#: model_terms:ir.ui.view,arch_db:mrp_bom_tracking.track_bom_line_template
+msgid "<strong>The component details have been updated.</strong>"
+msgstr "<strong>Деталі компонента оновлено.</strong>"
+
+#. module: mrp_bom_tracking
+#: model_terms:ir.ui.view,arch_db:mrp_bom_tracking.track_bom_line_template
+msgid "Consumed in Operation:"
+msgstr "Спожито в операції:"

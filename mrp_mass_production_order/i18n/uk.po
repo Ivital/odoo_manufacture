@@ -110,3 +110,52 @@ msgstr "Тип операції"
 #: model:ir.model.fields,field_description:mrp_mass_production_order.field_mrp_mass_production_order_entry_wizard__product_uom_id
 msgid "Product Unit of Measure"
 msgstr "Одиниця вимірювання товару"
+
+#. module: mrp_mass_production_order
+#: model:ir.model.fields,field_description:mrp_mass_production_order.field_mrp_mass_production_order_wizard__location_src_id
+msgid "Components Location"
+msgstr "Місце компонентів"
+
+#. module: mrp_mass_production_order
+#: model:ir.model.fields,field_description:mrp_mass_production_order.field_mrp_mass_production_order_entry_wizard__quantity
+msgid "Consumed Quantity"
+msgstr "Спожита кількість"
+
+#. module: mrp_mass_production_order
+#: model:ir.model.fields,help:mrp_mass_production_order.field_mrp_mass_production_order_entry_wizard__product_uom_category_id
+msgid ""
+"Conversion between Units of Measure can only occur if they belong to the "
+"same category. The conversion will be made based on the ratios."
+msgstr ""
+"Перетворення між одиницями вимірювання можливе лише тоді, коли вони належать"
+" до однієї категорії. Перетворення виконується на основі коефіцієнтів."
+
+#. module: mrp_mass_production_order
+#: model_terms:ir.ui.view,arch_db:mrp_mass_production_order.wizard_mass_mrp_production_order
+msgid "Create MRP Prodcution Orders"
+msgstr "Створити виробничі замовлення MRP"
+
+#. module: mrp_mass_production_order
+#: model:ir.model.fields,field_description:mrp_mass_production_order.field_mrp_mass_production_order_wizard__location_dest_id
+msgid "Finished Products Location"
+msgstr "Місце готової продукції"
+
+#. module: mrp_mass_production_order
+#: model_terms:ir.ui.view,arch_db:mrp_mass_production_order.wizard_mass_mrp_production_order
+msgid "MRP Production Orders"
+msgstr "Виробничі замовлення MRP"
+
+#. module: mrp_mass_production_order
+#: model:ir.model.fields,field_description:mrp_mass_production_order.field_mrp_mass_production_order_entry_wizard__mrp_production_order_entry_id
+msgid "MRP production order entry"
+msgstr "Запис виробничого замовлення MRP"
+
+#. module: mrp_mass_production_order
+#: model:ir.model.fields,field_description:mrp_mass_production_order.field_mrp_mass_production_order_entry_wizard__product_id
+msgid "Manufactured Product"
+msgstr "Вироблений товар"
+
+#. module: mrp_mass_production_order
+#: model:ir.model.fields,field_description:mrp_mass_production_order.field_mrp_mass_production_order_entry_wizard__product_qty
+msgid "Manufactured Quantity"
+msgstr "Вироблена кількість"

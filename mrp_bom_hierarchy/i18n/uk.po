@@ -57,3 +57,18 @@ msgstr "Є компонентом"
 #: model_terms:ir.ui.view,arch_db:mrp_bom_hierarchy.mrp_bom_hierarchy_tree_view
 msgid "Parent BoMs"
 msgstr "Батьківські BOM"
+
+#. module: mrp_bom_hierarchy
+#: model:ir.model.fields,field_description:mrp_bom_hierarchy.field_mrp_bom__product_has_other_bom
+msgid "Product has other BoMs"
+msgstr "Товар має інші специфікації"
+
+#. module: mrp_bom_hierarchy
+#: model_terms:ir.ui.view,arch_db:mrp_bom_hierarchy.mrp_bom_form_view
+msgid "View product's BoM"
+msgstr "Переглянути специфікацію товару"
+
+#. module: mrp_bom_hierarchy
+#: model_terms:ir.ui.view,arch_db:mrp_bom_hierarchy.mrp_bom_hierarchy_tree_view
+msgid "View product's other BoMs"
+msgstr "Переглянути інші специфікації товару"

@@ -91,3 +91,53 @@ msgstr "Тригер контролю якості"
 #: model_terms:ir.ui.view,arch_db:quality_control_stock_oca.stock_picking_qc_view
 msgid "inspections"
 msgstr "перевірки"
+
+#. module: quality_control_stock_oca
+#: model:ir.model.fields,field_description:quality_control_stock_oca.field_qc_trigger__inspection_per_lot
+msgid "Inspection Per Lot"
+msgstr "Перевірка на партію"
+
+#. module: quality_control_stock_oca
+#: model:ir.actions.act_window,name:quality_control_stock_oca.action_qc_inspection_per_lot_done
+msgid "Quality inspection from lot done"
+msgstr "Перевірку якості з партії завершено"
+
+#. module: quality_control_stock_oca
+#: model:ir.actions.act_window,name:quality_control_stock_oca.action_qc_inspection_per_lot_passed
+msgid "Quality inspection from lot passed"
+msgstr "Перевірку якості з партії пройдено"
+
+#. module: quality_control_stock_oca
+#: model:ir.actions.act_window,name:quality_control_stock_oca.action_qc_inspection_per_picking_done
+msgid "Quality inspection from picking done"
+msgstr "Перевірка якості після виконання переміщення"
+
+#. module: quality_control_stock_oca
+#: model:ir.actions.act_window,name:quality_control_stock_oca.action_qc_inspection_per_picking_passed
+msgid "Quality inspection from picking passed"
+msgstr "Перевірку якості з переміщення пройдено"
+
+#. module: quality_control_stock_oca
+#: model:ir.actions.act_window,name:quality_control_stock_oca.action_qc_inspection_per_lot
+msgid "Quality inspections from lot"
+msgstr "Перевірки якості з партії"
+
+#. module: quality_control_stock_oca
+#: model:ir.actions.act_window,name:quality_control_stock_oca.action_qc_inspection_per_lot_failed
+msgid "Quality inspections from lot failed"
+msgstr "Перевірки якості з партії не пройдено"
+
+#. module: quality_control_stock_oca
+#: model:ir.actions.act_window,name:quality_control_stock_oca.action_qc_inspection_per_picking
+msgid "Quality inspections from picking"
+msgstr "Перевірки якості з переміщення"
+
+#. module: quality_control_stock_oca
+#: model:ir.actions.act_window,name:quality_control_stock_oca.action_qc_inspection_per_picking_failed
+msgid "Quality inspections from picking failed"
+msgstr "Перевірки якості з переміщення не пройдено"
+
+#. module: quality_control_stock_oca
+#: model:ir.model.fields,help:quality_control_stock_oca.field_qc_inspection__picking_origin
+msgid "Reference of the document"
+msgstr "Посилання на документ"

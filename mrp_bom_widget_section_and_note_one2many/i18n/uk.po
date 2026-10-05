@@ -52,3 +52,13 @@ msgstr "Вкладення товару"
 #: model:ir.model.fields.selection,name:mrp_bom_widget_section_and_note_one2many.selection__mrp_bom_line__display_type__line_section
 msgid "Section"
 msgstr "Розділ"
+
+#. module: mrp_bom_widget_section_and_note_one2many
+#: model:ir.model.fields,field_description:mrp_bom_widget_section_and_note_one2many.field_mrp_bom__bom_line_with_sectionnote_ids
+msgid "BoM Lines With Sections & Notes"
+msgstr "Рядки специфікації з розділами та примітками"
+
+#. module: mrp_bom_widget_section_and_note_one2many
+#: model_terms:ir.ui.view,arch_db:mrp_bom_widget_section_and_note_one2many.mrp_bom_form_view_section
+msgid "Components And Sections"
+msgstr "Компоненти та секції"

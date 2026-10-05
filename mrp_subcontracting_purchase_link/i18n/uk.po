@@ -17,3 +17,23 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mrp_subcontracting_purchase_link.purchase_order_form
 msgid "Productions"
 msgstr "Виробництва"
+
+#. module: mrp_subcontracting_purchase_link
+#: model:ir.model.fields,field_description:mrp_subcontracting_purchase_link.field_purchase_order__subcontract_production_count
+msgid "Subcontract Production Count"
+msgstr "Кількість субпідрядних виробництв"
+
+#. module: mrp_subcontracting_purchase_link
+#: model:ir.model.fields,field_description:mrp_subcontracting_purchase_link.field_purchase_order__subcontract_production_ids
+msgid "Subcontract Production Orders"
+msgstr "Субпідрядні виробничі замовлення"
+
+#. module: mrp_subcontracting_purchase_link
+#: model:ir.model.fields,field_description:mrp_subcontracting_purchase_link.field_mrp_production__purchase_order_id
+msgid "Subcontract Purchase Order"
+msgstr "Субпідрядне замовлення закупівлі"
+
+#. module: mrp_subcontracting_purchase_link
+#: model:ir.model.fields,field_description:mrp_subcontracting_purchase_link.field_mrp_production__purchase_line_id
+msgid "Subcontract Purchase Order Line"
+msgstr "Рядок субпідрядного замовлення закупівлі"

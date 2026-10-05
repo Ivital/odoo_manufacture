@@ -22,3 +22,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mrp_bom_location.view_mrp_bom_filter
 msgid "Location"
 msgstr "Розташування"
+
+#. module: mrp_bom_location
+#: model_terms:ir.ui.view,arch_db:mrp_bom_location.report_mrpbomstructure_location
+msgid "Location of the product"
+msgstr "Місцезнаходження товару"

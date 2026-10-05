@@ -58,3 +58,45 @@ msgstr "Останнє оновлення"
 #: model:ir.model.fields,field_description:mrp_production_check_bom_alignment.field_mrp_bom_alignment_warning__mrp_production_ids
 msgid "Mrp Production"
 msgstr "Виробництво MRP"
+
+#. module: mrp_production_check_bom_alignment
+#: model:ir.model.fields,field_description:mrp_production_check_bom_alignment.field_mrp_production__bom_alignment_warning
+msgid "Bom Alignment Warning"
+msgstr "Попередження узгодженості BoM"
+
+#. module: mrp_production_check_bom_alignment
+#: model:ir.model.fields,field_description:mrp_production_check_bom_alignment.field_mrp_bom_alignment_warning__mrp_production_count
+msgid "Mrp Production Count"
+msgstr "Кількість виробничих замовлень MRP"
+
+#. module: mrp_production_check_bom_alignment
+#: model:ir.model.fields,field_description:mrp_production_check_bom_alignment.field_mrp_bom_alignment_warning__mrp_production_names
+msgid "Mrp Production Names"
+msgstr "Назви виробничих замовлень MRP"
+
+#. module: mrp_production_check_bom_alignment
+#: model_terms:ir.ui.view,arch_db:mrp_production_check_bom_alignment.view_mrp_bom_alignment_warning_form
+msgid ""
+"The components, quantities, or operations of the MO differ from\n"
+"                        the BoM. You can go back and update the MO, or confirm anyway."
+msgstr ""
+"Компоненти, кількості або операції виробничого замовлення відрізняються від\n"
+"                        специфікації. Можна повернутися й оновити замовлення або все одно підтвердити."
+
+#. module: mrp_production_check_bom_alignment
+#: model_terms:ir.ui.view,arch_db:mrp_production_check_bom_alignment.view_mrp_bom_alignment_warning_form
+msgid ""
+"The following manufacturing\n"
+"                        <span invisible=\"mrp_production_count != 1\">order is</span>\n"
+"                        <span invisible=\"mrp_production_count == 1\">orders are</span>\n"
+"                        not aligned with the current Bill of Materials:"
+msgstr ""
+"Наведені нижче виробничі\n"
+"                        <span invisible=\"mrp_production_count != 1\">замовлення</span>\n"
+"                        <span invisible=\"mrp_production_count == 1\">замовлення</span>\n"
+"                        не узгоджені з поточною специфікацією:"
+
+#. module: mrp_production_check_bom_alignment
+#: model_terms:ir.ui.view,arch_db:mrp_production_check_bom_alignment.view_mrp_bom_alignment_warning_form
+msgid "Update MO and Confirm"
+msgstr "Оновити виробниче замовлення та підтвердити"

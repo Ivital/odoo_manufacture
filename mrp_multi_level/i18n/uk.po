@@ -688,3 +688,100 @@ msgstr "Очікування"
 #: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_area__calendar_id
 msgid "Working Hours"
 msgstr "Робочі години"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_planned_order__mrp_inventory_id
+msgid "Associated MRP Inventory"
+msgstr "Пов’язана інвентаризація MRP"
+
+#. module: mrp_multi_level
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.mrp_inventory_list
+msgid "Create Procurement"
+msgstr "Створити забезпечення"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__distribution_lead_time
+msgid "Distribution Lead Time"
+msgstr "Час виконання розподілу"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory__final_on_hand_qty
+msgid "Forecasted Inventory"
+msgstr "Прогнозовані запаси"
+
+#. module: mrp_multi_level
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.product_mrp_area_form
+msgid "Get from main supplier"
+msgstr "Отримати від основного постачальника"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__mrp_maximum_order_qty
+msgid "Maximum Order Qty"
+msgstr "Максимальна кількість замовлення"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__mrp_minimum_order_qty
+msgid "Minimum Order Qty"
+msgstr "Мінімальна кількість замовлення"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory__order_release_date
+msgid "Order Release Date"
+msgstr "Дата випуску замовлення"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory__running_availability
+msgid "Planned Availability"
+msgstr "Запланована доступність"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__location_proc_id
+msgid "Procure Location"
+msgstr "Місце забезпечення"
+
+#. module: mrp_multi_level
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.view_mrp_inventory_procure_wizard
+msgid "Procurement Request"
+msgstr "Запит на забезпечення"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__qty_available
+msgid "Quantity Available"
+msgstr "Доступна кількість"
+
+#. module: mrp_multi_level
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.mrp_inventory_list
+msgid "Requests for Quotation"
+msgstr "Запити комерційних пропозицій"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory__initial_on_hand_qty
+msgid "Starting Inventory"
+msgstr "Початковий запас"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,help:mrp_multi_level.field_mrp_area__company_id
+#: model:ir.model.fields,help:mrp_multi_level.field_mrp_inventory__company_id
+#: model:ir.model.fields,help:mrp_multi_level.field_mrp_move__company_id
+#: model:ir.model.fields,help:mrp_multi_level.field_mrp_planned_order__company_id
+#: model:ir.model.fields,help:mrp_multi_level.field_product_mrp_area__company_id
+msgid "The company is automatically set from your user preferences."
+msgstr "Компанія автоматично встановлюється з ваших налаштувань користувача."
+
+#. module: mrp_multi_level
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.view_mrp_inventory_procure_wizard
+msgid ""
+"Use this assistant to procure for this product and date.\n"
+"                    According to the product configuration,\n"
+"                    this may trigger a draft purchase order, a manufacturing\n"
+"                    order or a transfer picking."
+msgstr ""
+"Використовуйте цей помічник, щоб виконати забезпечення для цього товару та дати.\n"
+"                    Залежно від конфігурації товару\n"
+"                    це може створити чернетку замовлення на закупівлю, виробниче\n"
+"                    замовлення або складське переміщення."
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__mrp_verified
+msgid "Verified for MRP"
+msgstr "Перевірено для MRP"

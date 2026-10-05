@@ -29,3 +29,13 @@ msgstr "<span class=\"o_stat_text\">Замовлення на ремонт</span
 #: model_terms:ir.ui.view,arch_db:mrp_repair_order.view_mrp_production_form_inherit
 msgid "Create Repair Order"
 msgstr "Створити замовлення на ремонт"
+
+#. module: mrp_repair_order
+#: model_terms:ir.ui.view,arch_db:mrp_repair_order.view_repair_order_form_inherit
+msgid "<span class=\"o_stat_text\">Manufacturing order</span>"
+msgstr "<span class=\"o_stat_text\">Виробниче замовлення</span>"
+
+#. module: mrp_repair_order
+#: model:ir.model.fields,field_description:mrp_repair_order.field_repair_order__mrp_ids
+msgid "Manufacting Orders"
+msgstr "Виробничі замовлення"

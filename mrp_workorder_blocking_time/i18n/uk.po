@@ -64,3 +64,47 @@ msgstr "Рекомендований час блокування (години)"
 #: model_terms:ir.ui.view,arch_db:mrp_workorder_blocking_time.mrp_routing_workcenter_blocking_time_form_inherit
 msgid "hours"
 msgstr "години"
+
+#. module: mrp_workorder_blocking_time
+#: model_terms:ir.ui.view,arch_db:mrp_workorder_blocking_time.mrp_workorder_blocking_reason_wizard_form_view
+msgid "Accept and stop WO"
+msgstr "Прийняти й зупинити робоче замовлення"
+
+#. module: mrp_workorder_blocking_time
+#: model:ir.model.fields,field_description:mrp_workorder_blocking_time.field_mrp_workorder__blocking_period_interrupted
+msgid "Blocking Period Interrupted"
+msgstr "Період блокування перервано"
+
+#. module: mrp_workorder_blocking_time
+#: model:ir.model.fields,field_description:mrp_workorder_blocking_time.field_mrp_workorder__blocking_stage_end
+msgid "Blocking Stage End"
+msgstr "Кінець блокувального етапу"
+
+#. module: mrp_workorder_blocking_time
+#: model_terms:ir.ui.view,arch_db:mrp_workorder_blocking_time.mrp_workorder_blocking_reason_wizard_form_view
+msgid "Cancel and continue WO"
+msgstr "Скасувати та продовжити робоче замовлення"
+
+#. module: mrp_workorder_blocking_time
+#: model_terms:ir.ui.view,arch_db:mrp_workorder_blocking_time.mrp_routing_workcenter_blocking_time_form_inherit
+msgid "Rec. Blocking Time"
+msgstr "Рекомендований час блокування"
+
+#. module: mrp_workorder_blocking_time
+#: model:ir.model.fields,field_description:mrp_workorder_blocking_time.field_mrp_routing_workcenter__recommended_blocking_time
+msgid "Recommended Blocking Time"
+msgstr "Рекомендований час блокування"
+
+#. module: mrp_workorder_blocking_time
+#: model:ir.actions.act_window,name:mrp_workorder_blocking_time.mrp_workorder_blocking_reason_wizard_act_window
+msgid "WorkOrder Blocking Reason Popup"
+msgstr "Спливаюче вікно причини блокування робочого замовлення"
+
+#. module: mrp_workorder_blocking_time
+#: model_terms:ir.ui.view,arch_db:mrp_workorder_blocking_time.mrp_workorder_blocking_reason_wizard_form_view
+msgid ""
+"You are trying to pause/finish a workorder, but the blocking period is not over.\n"
+"                                Are you sure you want to continue?"
+msgstr ""
+"Ви намагаєтеся призупинити/завершити робоче замовлення, але період блокування ще не минув.\n"
+"                                Ви впевнені, що хочете продовжити?"

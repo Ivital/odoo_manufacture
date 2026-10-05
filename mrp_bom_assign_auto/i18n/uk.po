@@ -28,3 +28,8 @@ msgstr "Вільна кількість"
 #: model:ir.model.fields.selection,name:mrp_bom_assign_auto.selection__res_config_settings__bom_stock_check__virtual_available
 msgid "Vitual Available"
 msgstr "Віртуально доступно"
+
+#. module: mrp_bom_assign_auto
+#: model_terms:ir.ui.view,arch_db:mrp_bom_assign_auto.res_config_settings_view_form
+msgid "How BoM are check"
+msgstr "Як перевіряються специфікації"

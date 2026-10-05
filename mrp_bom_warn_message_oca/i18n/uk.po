@@ -23,3 +23,23 @@ msgstr "Попередження"
 #: model:ir.model.fields.selection,name:mrp_bom_warn_message_oca.selection__mrp_bom__production_warn__no-message
 msgid "No Message"
 msgstr "Немає повідомлення"
+
+#. module: mrp_bom_warn_message_oca
+#: model:ir.model.fields,field_description:mrp_bom_warn_message_oca.field_mrp_bom__production_warn_msg
+msgid "Message for Production Warn"
+msgstr "Повідомлення попередження виробництва"
+
+#. module: mrp_bom_warn_message_oca
+#: model:ir.model.fields,field_description:mrp_bom_warn_message_oca.field_mrp_production__production_warn_msg
+msgid "Production Warning Message"
+msgstr "Попередження виробництва"
+
+#. module: mrp_bom_warn_message_oca
+#: model:ir.model.fields,field_description:mrp_bom_warn_message_oca.field_mrp_bom__production_warn
+msgid "Production Warnings"
+msgstr "Попередження виробництва"
+
+#. module: mrp_bom_warn_message_oca
+#: model_terms:ir.ui.view,arch_db:mrp_bom_warn_message_oca.mrp_bom_form_view_warn_inherit
+msgid "Write your warn message..."
+msgstr "Напишіть текст попередження..."

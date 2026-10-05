@@ -17,3 +17,17 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp_production_auto_validate.field_mrp_production__auto_validate
 msgid "Auto Validate"
 msgstr "Автоматично перевіряти"
+
+#. module: mrp_production_auto_validate
+#: model_terms:ir.ui.view,arch_db:mrp_production_auto_validate.mrp_bom_form_view
+msgid ""
+"<span>The Quantity To Produce of an order is now restricted to the BoM "
+"Quantity.</span>"
+msgstr ""
+"<span>Кількість до виробництва в замовленні тепер обмежена кількістю у "
+"специфікації.</span>"
+
+#. module: mrp_production_auto_validate
+#: model:ir.model.fields,field_description:mrp_production_auto_validate.field_mrp_bom__mo_auto_validation
+msgid "Order Auto Validation"
+msgstr "Автоперевірка замовлення"

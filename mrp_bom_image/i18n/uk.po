@@ -27,3 +27,8 @@ msgstr "Зображення 128"
 #: model:ir.model.fields,field_description:mrp_bom_image.field_mrp_bom__image_512
 msgid "Image 512"
 msgstr "Зображення 512"
+
+#. module: mrp_bom_image
+#: model_terms:ir.ui.view,arch_db:mrp_bom_image.view_mrp_bom_kanban
+msgid "Bill of Material Image"
+msgstr "Зображення специфікації"

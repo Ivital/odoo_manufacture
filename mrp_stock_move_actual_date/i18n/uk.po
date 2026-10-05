@@ -26,3 +26,12 @@ msgstr "Фактична дата"
 #: model:ir.model.fields,field_description:mrp_stock_move_actual_date.field_mrp_unbuild__is_editable_actual_date
 msgid "Is Editable"
 msgstr "Редагується"
+
+#. module: mrp_stock_move_actual_date
+#: model:ir.model.fields,help:mrp_stock_move_actual_date.field_mrp_production__actual_date
+#: model:ir.model.fields,help:mrp_stock_move_actual_date.field_mrp_unbuild__actual_date
+msgid ""
+"If set, the value is propagated to the related journal entries as the date."
+msgstr ""
+"Якщо встановлено, значення буде передано пов'язаним журнальним записам як "
+"дата."

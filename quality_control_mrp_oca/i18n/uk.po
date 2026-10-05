@@ -39,3 +39,8 @@ msgstr "Виробниче замовлення"
 #: model_terms:ir.ui.view,arch_db:quality_control_mrp_oca.mrp_production_qc_view
 msgid "inspections"
 msgstr "перевірки"
+
+#. module: quality_control_mrp_oca
+#: model:ir.actions.act_window,name:quality_control_mrp_oca.action_qc_inspection_per_production
+msgid "Quality inspections from production order"
+msgstr "Перевірки якості з виробничого замовлення"

@@ -43,3 +43,13 @@ msgstr "Дата зобов'язання"
 #: model_terms:ir.ui.view,arch_db:mrp_sale_info.view_mrp_production_filter
 msgid "Customer Reference"
 msgstr "Посилання клієнта"
+
+#. module: mrp_sale_info
+#: model:ir.model.fields,field_description:mrp_sale_info.field_sale_order_line__mrp_production_ids
+msgid "Manufacturing orders"
+msgstr "Виробничі замовлення"
+
+#. module: mrp_sale_info
+#: model_terms:ir.ui.view,arch_db:mrp_sale_info.mrp_production_workorder_form_view_inherit
+msgid "Sale information"
+msgstr "Інформація про продаж"

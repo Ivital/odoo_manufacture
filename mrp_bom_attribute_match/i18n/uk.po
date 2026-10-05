@@ -17,3 +17,18 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp_bom_attribute_match.field_mrp_bom_line__product_backup_id
 msgid "Product Backup"
 msgstr "Резервний товар"
+
+#. module: mrp_bom_attribute_match
+#: model:ir.model.fields,field_description:mrp_bom_attribute_match.field_mrp_bom_line__component_template_id
+msgid "Component (product template)"
+msgstr "Компонент (шаблон товару)"
+
+#. module: mrp_bom_attribute_match
+#: model:ir.model.fields,field_description:mrp_bom_attribute_match.field_mrp_bom_line__match_on_attribute_ids
+msgid "Match on Attributes"
+msgstr "Зіставляти за атрибутами"
+
+#. module: mrp_bom_attribute_match
+#: model:ir.model.fields,field_description:mrp_bom_attribute_match.field_mrp_bom_line__product_uom_category_id
+msgid "Product Uom Category"
+msgstr "Категорія одиниці виміру товару"

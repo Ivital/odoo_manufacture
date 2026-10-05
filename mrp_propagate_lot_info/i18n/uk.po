@@ -95,3 +95,40 @@ msgid "Propagate the configured component lot values to this by-product lot."
 msgstr ""
 "Перенести налаштовані значення лота компонента до лота цього побічного "
 "продукту."
+
+#. module: mrp_propagate_lot_info
+#. odoo-python
+#: code:addons/mrp_propagate_lot_info/models/mrp_production.py:0
+msgid "Lot field propagation requires a finished product lot/serial number."
+msgstr ""
+"Передавання поля партії потребує партії/серійного номера готового товару."
+
+#. module: mrp_propagate_lot_info
+#. odoo-python
+#: code:addons/mrp_propagate_lot_info/models/mrp_production.py:0
+msgid ""
+"Lot field propagation requires exactly one consumed lot on the configured "
+"component."
+msgstr ""
+"Передавання поля партії вимагає рівно одну спожиту партію налаштованого "
+"компонента."
+
+#. module: mrp_propagate_lot_info
+#. odoo-python
+#: code:addons/mrp_propagate_lot_info/models/mrp_bom_line.py:0
+#: code:addons/mrp_propagate_lot_info/models/mrp_production.py:0
+msgid ""
+"Only one BoM line can propagate lot information to the finished product."
+msgstr ""
+"Лише один рядок специфікації може передавати інформацію про лот до готового "
+"товару."
+
+#. module: mrp_propagate_lot_info
+#. odoo-python
+#: code:addons/mrp_propagate_lot_info/models/mrp_bom_line.py:0
+msgid ""
+"Only tracked components can propagate lot information to the finished "
+"product."
+msgstr ""
+"Лише компоненти з обліком можуть передавати інформацію про партію готовому "
+"товару."

@@ -114,3 +114,15 @@ msgstr ""
 msgid "Wizard to open a blocking reason popup for a workorder"
 msgstr ""
 "Майстер відкриття спливного вікна причини блокування для робочого замовлення"
+
+#. module: mrp_workorder_blocking_time
+#. odoo-python
+#: code:addons/mrp_workorder_blocking_time/wizards/wizard_open_blocking_popup.py:0
+msgid "No action to do"
+msgstr "Немає дій для виконання"
+
+#. module: mrp_workorder_blocking_time
+#. odoo-python
+#: code:addons/mrp_workorder_blocking_time/models/mrp_workorder.py:0
+msgid "You cannot remove a blocking operation!"
+msgstr "Не можна видалити блокувальну операцію!"

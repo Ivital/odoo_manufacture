@@ -27,3 +27,13 @@ msgstr ""
 "Вкажіть робочі центри, які можуть використовувати цей код причини під час "
 "списання. Якщо залишити порожнім, код причини можна використовувати з будь-"
 "яким робочим центром."
+
+#. module: mrp_workcenter_scrap_reason
+#. odoo-python
+#: code:addons/mrp_workcenter_scrap_reason/models/stock_scrap.py:0
+msgid ""
+"The selected reason code is not allowed for this product category or work "
+"center"
+msgstr ""
+"Вибраний код причини не дозволений для цієї категорії товару або робочого "
+"центру"

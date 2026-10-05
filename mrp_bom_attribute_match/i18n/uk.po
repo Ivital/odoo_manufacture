@@ -37,3 +37,67 @@ msgstr "Категорія одиниці виміру товару"
 #: model:ir.model.fields,help:mrp_bom_attribute_match.field_mrp_bom_line__product_backup_id
 msgid "Technical field to store previous value of product_id"
 msgstr "Технічне поле для зберігання попереднього значення product_id"
+
+#. module: mrp_bom_attribute_match
+#. odoo-python
+#: code:addons/mrp_bom_attribute_match/models/mrp_bom.py:0
+msgid ""
+"No match on attribute has been detected for Component (Product Template) %s"
+msgstr "Для компонента (шаблону товару) %s не виявлено збігу за атрибутом"
+
+#. module: mrp_bom_attribute_match
+#. odoo-python
+#: code:addons/mrp_bom_attribute_match/models/mrp_bom.py:0
+msgid ""
+"Recursion error!  A product with a Bill of Material should not have itself "
+"in its BoM or child BoMs!"
+msgstr ""
+"Помилка рекурсії! Товар зі специфікацією не повинен містити сам себе у своїй"
+" або дочірніх специфікаціях!"
+
+#. module: mrp_bom_attribute_match
+#. odoo-python
+#: code:addons/mrp_bom_attribute_match/models/mrp_bom.py:0
+msgid ""
+"Some attributes of the dynamic component are not included into production "
+"product attributes."
+msgstr ""
+"Деякі атрибути динамічного компонента не входять до атрибутів виробничого "
+"товару."
+
+#. module: mrp_bom_attribute_match
+#. odoo-python
+#: code:addons/mrp_bom_attribute_match/models/product.py:0
+msgid ""
+"The attributes you're trying to remove are used in the BoM as a match with Component (Product Template). To remove these attributes, first remove the BOM line with the matching component.\n"
+"Attributes: %(attributes)s\n"
+"BoM: %(bom)s"
+msgstr ""
+"Атрибути, які ви намагаєтеся видалити, використовуються у специфікації для зіставлення з компонентом (шаблоном товару). Щоб видалити ці атрибути, спочатку видаліть рядок специфікації з відповідним компонентом.\n"
+"Атрибути: %(attributes)s\n"
+"Специфікація: %(bom)s"
+
+#. module: mrp_bom_attribute_match
+#. odoo-python
+#: code:addons/mrp_bom_attribute_match/models/product.py:0
+msgid ""
+"This product template is used as a component in the BOMs for %(bom)s and "
+"attribute(s) %(attributes)s is not present in all such product(s), and this "
+"would break the BOM behavior."
+msgstr ""
+"Цей шаблон товару використовується як компонент у специфікаціях %(bom)s, а "
+"атрибут(и) %(attributes)s присутні не в усіх таких товарах, що порушить "
+"роботу специфікації."
+
+#. module: mrp_bom_attribute_match
+#. odoo-python
+#: code:addons/mrp_bom_attribute_match/models/mrp_bom.py:0
+msgid ""
+"You cannot use an attribute value for attribute(s) %(attributes)s in the "
+"field “Apply on Variants” as it's the same attribute used in the field "
+"“Match on Attribute” related to the component %(component)s."
+msgstr ""
+"Не можна використовувати значення атрибута для атрибута(ів) %(attributes)s у"
+" полі «Застосувати до варіантів», оскільки це той самий атрибут, що "
+"використовується в полі «Зіставити за атрибутом», пов’язаному з компонентом "
+"%(component)s."

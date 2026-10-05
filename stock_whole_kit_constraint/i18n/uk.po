@@ -29,3 +29,9 @@ msgid ""
 msgstr ""
 "Якщо не задано і цей товар доставляється як комплект BoM, часткові поставки "
 "компонентів не дозволятимуться."
+
+#. module: stock_whole_kit_constraint
+#. odoo-python
+#: code:addons/stock_whole_kit_constraint/models/stock_picking.py:0
+msgid "You can't make a partial delivery of components of the %s kit"
+msgstr "Не можна виконати часткову доставку компонентів комплекту %s"

@@ -65,3 +65,35 @@ msgstr ""
 "Специфікацію, що використовується в цьому виробничому замовленні, "
 "налаштовано на поширення пакування з одного з компонентів. Значення буде "
 "обчислено після вибору відповідного компонента."
+
+#. module: mrp_package_propagation
+#. odoo-python
+#: code:addons/mrp_package_propagation/models/mrp_bom_line.py:0
+msgid "Only one component can propagate its package to the finished product."
+msgstr "Лише один компонент може передавати своє пакування готовому товару."
+
+#. module: mrp_package_propagation
+#. odoo-python
+#: code:addons/mrp_package_propagation/models/mrp_production.py:0
+msgid ""
+"The BoM is propagating a package from one component.\n"
+"As such, the manufacturing order is forced to produce the same quantity than the BoM: %s %s"
+msgstr ""
+"Специфікація передає пакування з одного компонента.\n"
+"Тому виробниче замовлення примусово виробляє ту саму кількість, що й специфікація: %s %s"
+
+#. module: mrp_package_propagation
+#. odoo-python
+#: code:addons/mrp_package_propagation/models/mrp_bom_line.py:0
+msgid "The component propagating the package must consume 1 %s."
+msgstr "Компонент, що передає пакування, має споживати 1 %s."
+
+#. module: mrp_package_propagation
+#. odoo-python
+#: code:addons/mrp_package_propagation/models/mrp_bom.py:0
+msgid ""
+"With 'Package Propagation' enabled, a line has to be configured with the "
+"'Propagate Package' option."
+msgstr ""
+"Якщо ввімкнено «Передавання пакування», рядок має бути налаштований з опцією"
+" «Передавати пакування»."

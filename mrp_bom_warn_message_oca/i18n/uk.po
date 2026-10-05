@@ -48,3 +48,9 @@ msgstr "Напишіть текст попередження..."
 #: model:res.groups,name:mrp_bom_warn_message_oca.group_warning_mrp_bom
 msgid "A warning can be set on a MRP BOM (MRP)"
 msgstr "Для специфікації MRP можна встановити попередження"
+
+#. module: mrp_bom_warn_message_oca
+#. odoo-python
+#: code:addons/mrp_bom_warn_message_oca/models/mrp_production.py:0
+msgid "Warning of MRP BOM"
+msgstr "Попередження специфікації MRP"

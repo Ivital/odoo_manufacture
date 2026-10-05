@@ -198,3 +198,9 @@ msgstr "Місце, де система зберігатиме готову пр
 #: model:ir.model,name:mrp_mass_production_order.model_mrp_mass_production_order_wizard
 msgid "Multiple MRP production order"
 msgstr "Кілька виробничих замовлень MRP"
+
+#. module: mrp_mass_production_order
+#. odoo-python
+#: code:addons/mrp_mass_production_order/wizards/mrp_mass_order_wizard.py:0
+msgid "MRP Production Orders Created"
+msgstr "Створено виробничі замовлення MRP"

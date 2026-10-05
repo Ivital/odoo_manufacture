@@ -258,7 +258,7 @@ msgstr "Чернетка"
 #. odoo-python
 #: code:addons/quality_control_oca/models/qc_test_category.py:0
 msgid "Error! You can not create recursive categories."
-msgstr ""
+msgstr "Помилка! Не можна створювати рекурсивні категорії."
 
 #. module: quality_control_oca
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_inspection__external_notes
@@ -806,6 +806,8 @@ msgid ""
 "Question '%(line_name)s' is not valid: you have to define at least one "
 "possible value."
 msgstr ""
+"Запитання «%(line_name)s» недійсне: потрібно визначити щонайменше одне "
+"можливе значення."
 
 #. module: quality_control_oca
 #. odoo-python
@@ -814,12 +816,15 @@ msgid ""
 "Question '%s' is not valid: minimum value can't be higher than maximum "
 "value."
 msgstr ""
+"Запитання «%s» недійсне: мінімальне значення не може перевищувати "
+"максимальне."
 
 #. module: quality_control_oca
 #. odoo-python
 #: code:addons/quality_control_oca/models/qc_test.py:0
 msgid "Question '%s' is not valid: you have to mark at least one value as OK."
 msgstr ""
+"Запитання «%s» недійсне: потрібно позначити щонайменше одне значення як OK."
 
 #. module: quality_control_oca
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_inspection_line__question_type
@@ -1103,31 +1108,31 @@ msgstr "Коли це поле позначено, відповідь вважа
 #. odoo-python
 #: code:addons/quality_control_oca/models/qc_inspection.py:0
 msgid "You cannot remove an auto-generated inspection."
-msgstr ""
+msgstr "Не можна видалити автоматично створену перевірку."
 
 #. module: quality_control_oca
 #. odoo-python
 #: code:addons/quality_control_oca/models/qc_inspection.py:0
 msgid "You cannot remove an inspection that is not in draft state."
-msgstr ""
+msgstr "Не можна видалити перевірку, яка не перебуває у стані чернетки."
 
 #. module: quality_control_oca
 #. odoo-python
 #: code:addons/quality_control_oca/models/qc_inspection.py:0
 msgid "You must first set the test to perform."
-msgstr ""
+msgstr "Спочатку потрібно вказати тест для виконання."
 
 #. module: quality_control_oca
 #. odoo-python
 #: code:addons/quality_control_oca/models/qc_inspection.py:0
 msgid "You should provide a unit of measure for quantitative questions."
-msgstr ""
+msgstr "Для кількісних запитань потрібно вказати одиницю вимірювання."
 
 #. module: quality_control_oca
 #. odoo-python
 #: code:addons/quality_control_oca/models/qc_inspection.py:0
 msgid "You should provide an answer for all qualitative questions."
-msgstr ""
+msgstr "Потрібно надати відповідь на всі якісні запитання."
 
 #. module: quality_control_oca
 #: model_terms:ir.ui.view,arch_db:quality_control_oca.view_qc_test_set_test_form

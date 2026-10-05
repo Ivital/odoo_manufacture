@@ -151,3 +151,111 @@ msgstr ""
 "Специфікацію, що використовується в цьому виробничому замовленні, "
 "налаштовано на поширення номера партії з одного з компонентів. Значення буде"
 " обчислено після вибору відповідного компонента."
+
+#. module: mrp_lot_number_propagation
+#. odoo-python
+#: code:addons/mrp_lot_number_propagation/models/product_template.py:0
+msgid ""
+"A BoM propagating serial numbers requires this product to be tracked as "
+"such."
+msgstr ""
+"Специфікація, що передає серійні номери, вимагає відповідного серійного "
+"обліку цього товару."
+
+#. module: mrp_lot_number_propagation
+#. odoo-python
+#: code:addons/mrp_lot_number_propagation/wizard/mrp_batch_produce.py:0
+msgid ""
+"As the product being produced is set to propagate lot number from component "
+"%s, please make sure you define the same lot number between finished product"
+" and propagating component."
+msgstr ""
+"Оскільки для виробленого товару налаштовано успадкування номера партії від "
+"компонента %s, переконайтеся, що для готового товару та компонента, від "
+"якого успадковується номер, указано однаковий номер партії."
+
+#. module: mrp_lot_number_propagation
+#. odoo-python
+#: code:addons/mrp_lot_number_propagation/models/mrp_production.py:0
+msgid ""
+"Bill of material is marked for lot number propagation, but there are "
+"multiple components propagating lot number. Please check BOM configuration."
+msgstr ""
+"Специфікацію позначено для передавання номера партії, але кілька компонентів"
+" передають номер партії. Перевірте налаштування специфікації."
+
+#. module: mrp_lot_number_propagation
+#. odoo-python
+#: code:addons/mrp_lot_number_propagation/models/mrp_production.py:0
+msgid ""
+"Bill of material is marked for lot number propagation, but there are no "
+"components propagating lot number. Please check BOM configuration."
+msgstr ""
+"Специфікацію позначено для передавання номера партії, але немає компонентів,"
+" що передають номер партії. Перевірте налаштування специфікації."
+
+#. module: mrp_lot_number_propagation
+#. odoo-python
+#: code:addons/mrp_lot_number_propagation/wizard/mrp_batch_produce_propagate.py:0
+msgid ""
+"Cannot mass produce without any propagating component line having serial "
+"number defined."
+msgstr ""
+"Не можна виконати масове виробництво без хоча б одного компонента з "
+"передаванням і заданим серійним номером."
+
+#. module: mrp_lot_number_propagation
+#. odoo-python
+#: code:addons/mrp_lot_number_propagation/wizard/mrp_batch_produce.py:0
+msgid ""
+"Lot number must be the same between finished product %s and component %s"
+msgstr "Номер партії має збігатися між готовим товаром %s і компонентом %s"
+
+#. module: mrp_lot_number_propagation
+#. odoo-python
+#: code:addons/mrp_lot_number_propagation/models/mrp_production.py:0
+msgid ""
+"Lot/Serial number %s already exists and has been used. Unable to propagate "
+"it."
+msgstr ""
+"Партія/серійний номер %s уже існує й використовувався. Передати його "
+"неможливо."
+
+#. module: mrp_lot_number_propagation
+#. odoo-python
+#: code:addons/mrp_lot_number_propagation/models/mrp_production.py:0
+msgid ""
+"Lot/Serial number is propagated from a component, you are not allowed to "
+"change it."
+msgstr ""
+"Партія/серійний номер передається з компонента, змінювати його не дозволено."
+
+#. module: mrp_lot_number_propagation
+#. odoo-python
+#: code:addons/mrp_lot_number_propagation/models/mrp_bom_line.py:0
+msgid ""
+"Only components tracked by serial number can propagate its lot/serial number"
+" to the finished product."
+msgstr ""
+"Лише компоненти з серійним обліком можуть передавати партію/серійний номер "
+"готовому товару."
+
+#. module: mrp_lot_number_propagation
+#. odoo-python
+#: code:addons/mrp_lot_number_propagation/models/product_template.py:0
+msgid ""
+"This component is configured to propagate its serial number in the following"
+" Bill of Materials: %s"
+msgstr ""
+"Цей компонент налаштовано на передавання серійного номера в таких "
+"специфікаціях: %s"
+
+#. module: mrp_lot_number_propagation
+#. odoo-python
+#: code:addons/mrp_lot_number_propagation/models/mrp_bom.py:0
+msgid ""
+"With 'Lot Number Propagation' enabled, a line has to be configured with the "
+"'Propagate Lot Number' option."
+msgstr ""
+"Якщо ввімкнено «Передавання номера партії», рядок має бути налаштований з "
+"опцією «Передавати номер партії»."

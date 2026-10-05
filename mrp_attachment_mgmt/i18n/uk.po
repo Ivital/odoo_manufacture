@@ -50,3 +50,13 @@ msgstr "Вкладення специфікації"
 #: model:ir.actions.server,name:mrp_attachment_mgmt.action_show_production_attachments
 msgid "Product Attachments"
 msgstr "Вкладення товару"
+
+#. module: mrp_attachment_mgmt
+#. odoo-python
+#: code:addons/mrp_attachment_mgmt/models/mrp_workorder.py:0
+msgid ""
+"%(error_count)d Product(s) without drawing:\n"
+"%(error_msg)s"
+msgstr ""
+"%(error_count)d товар(ів) без креслення:\n"
+"%(error_msg)s"

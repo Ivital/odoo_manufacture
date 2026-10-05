@@ -40,3 +40,40 @@ msgid ""
 msgstr ""
 "Автоматично підтверджувати виробниче замовлення після підтвердження передачі «Відібрати компоненти».\n"
 "Ця поведінка доступна лише для складу, налаштованого на 2 або 3 кроки."
+
+#. module: mrp_production_auto_validate
+#. odoo-python
+#: code:addons/mrp_production_auto_validate/models/mrp_production.py:0
+msgid ""
+"Quantity in procurement (%(product_qty)s %(product_uom_name)s) was increased"
+" to %(bom_qty)s %(bom_uom_name)s due to auto validation feature preventing "
+"to create an MO with a different qty than defined on the BOM."
+msgstr ""
+"Кількість у закупівлі (%(product_qty)s %(product_uom_name)s) було збільшено "
+"до %(bom_qty)s %(bom_uom_name)s через функцію автоматичної перевірки, яка не"
+" дозволяє створити виробниче замовлення з кількістю, відмінною від "
+"визначеної у специфікації."
+
+#. module: mrp_production_auto_validate
+#. odoo-python
+#: code:addons/mrp_production_auto_validate/models/mrp_production.py:0
+msgid ""
+"Quantity in procurement (%(product_qty)s %(product_uom_name)s) was split to "
+"multiple production orders of %(bom_qty)s %(bom_uom_name)s due to auto "
+"validation feature preventing to set a quantity to produce different than "
+"the quantity defined on the Bill of Materials."
+msgstr ""
+"Кількість у закупівлі (%(product_qty)s %(product_uom_name)s) було розділено "
+"на кілька виробничих замовлень по %(bom_qty)s %(bom_uom_name)s через функцію"
+" автоматичної перевірки, яка не дозволяє встановлювати кількість до "
+"виробництва, відмінну від кількості, визначеної у специфікації."
+
+#. module: mrp_production_auto_validate
+#. odoo-python
+#: code:addons/mrp_production_auto_validate/models/mrp_production.py:0
+msgid ""
+"The quantity to produce is restricted to %(qty)s %(uom)s as the BoM is "
+"configured with the 'Order Auto Validation' option."
+msgstr ""
+"Кількість для виробництва обмежена до %(qty)s %(uom)s, оскільки специфікацію"
+" налаштовано з опцією «Автопідтвердження замовлення»."

@@ -874,3 +874,37 @@ msgstr "Комбінація параметрів товару/області MR
 msgid "Theoretical inventory level if all planned orders were released."
 msgstr ""
 "Теоретичний рівень запасів, якби всі заплановані замовлення були випущені."
+
+#. module: mrp_multi_level
+#. odoo-python
+#: code:addons/mrp_multi_level/wizards/mrp_multi_level.py:0
+msgid "Grouped Demand of %(product_name)s for %(delta_days)d Days"
+msgstr "Згрупований попит на %(product_name)s за %(delta_days)d днів"
+
+#. module: mrp_multi_level
+#. odoo-python
+#: code:addons/mrp_multi_level/wizards/mrp_multi_level.py:0
+msgid "No MRP product found"
+msgstr "Товар MRP не знайдено"
+
+#. module: mrp_multi_level
+#. odoo-python
+#: code:addons/mrp_multi_level/wizards/mrp_inventory_procure.py:0
+msgid "Quantity must be positive."
+msgstr "Кількість має бути додатною."
+
+#. module: mrp_multi_level
+#. odoo-python
+#: code:addons/mrp_multi_level/models/product_template.py:0
+msgid ""
+"The product %(product)s has MRP area parameters that belong to another company: %(parameters)s.\n"
+"Delete those parameters before restricting the product to the company %(company)s."
+msgstr ""
+"Товар %(product)s має параметри MRP-зони, що належать іншій компанії: %(parameters)s.\n"
+"Видаліть ці параметри, перш ніж обмежувати товар компанією %(company)s."
+
+#. module: mrp_multi_level
+#. odoo-python
+#: code:addons/mrp_multi_level/models/product_mrp_area.py:0
+msgid "You cannot use a negative number."
+msgstr "Не можна використовувати від’ємне число."

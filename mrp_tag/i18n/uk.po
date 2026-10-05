@@ -90,3 +90,9 @@ msgstr "Тег із такою назвою вже існує!"
 #: model:ir.model,name:mrp_tag.model_mrp_tag
 msgid "MRP Tag"
 msgstr "Тег MRP"
+
+#. module: mrp_tag
+#. odoo-python
+#: code:addons/mrp_tag/models/mrp_tag.py:0
+msgid "Tags cannot be recursive."
+msgstr "Теги не можуть бути рекурсивними."

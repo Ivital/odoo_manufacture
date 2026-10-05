@@ -27,3 +27,33 @@ msgstr "Має під-BoM"
 #: model:ir.model.fields,field_description:mrp_bom_hierarchy.field_mrp_bom__parent_bom_ids
 msgid "Parent Bom"
 msgstr "Батьківська BoM"
+
+#. module: mrp_bom_hierarchy
+#: model_terms:ir.ui.view,arch_db:mrp_bom_hierarchy.mrp_bom_hierarchy_tree_view
+msgid "Child BoMs"
+msgstr "Дочірні BOM"
+
+#. module: mrp_bom_hierarchy
+#: model_terms:ir.ui.view,arch_db:mrp_bom_hierarchy.view_mrp_bom_filter
+msgid "Has child BoMs"
+msgstr "Має дочірні специфікації"
+
+#. module: mrp_bom_hierarchy
+#: model:ir.model.fields,field_description:mrp_bom_hierarchy.field_mrp_bom__has_child
+msgid "Has components"
+msgstr "Має компоненти"
+
+#. module: mrp_bom_hierarchy
+#: model_terms:ir.ui.view,arch_db:mrp_bom_hierarchy.view_mrp_bom_filter
+msgid "Has parent BoMs"
+msgstr "Має батьківські специфікації"
+
+#. module: mrp_bom_hierarchy
+#: model:ir.model.fields,field_description:mrp_bom_hierarchy.field_mrp_bom__has_parent
+msgid "Is component"
+msgstr "Є компонентом"
+
+#. module: mrp_bom_hierarchy
+#: model_terms:ir.ui.view,arch_db:mrp_bom_hierarchy.mrp_bom_hierarchy_tree_view
+msgid "Parent BoMs"
+msgstr "Батьківські BOM"

@@ -32,3 +32,50 @@ msgstr "Відображувана назва"
 #: model:ir.model.fields,field_description:mrp_lot_number_propagation.field_mrp_batch_produce_propagate__production_ids
 msgid "Production"
 msgstr "Виробництво"
+
+#. module: mrp_lot_number_propagation
+#: model_terms:ir.ui.view,arch_db:mrp_lot_number_propagation.view_mrp_batch_produce_propagate_form
+msgid "Discard"
+msgstr "Відкинути"
+
+#. module: mrp_lot_number_propagation
+#: model:ir.model.fields,field_description:mrp_lot_number_propagation.field_mrp_batch_produce__is_lot_number_propagated
+#: model:ir.model.fields,field_description:mrp_lot_number_propagation.field_mrp_production__is_lot_number_propagated
+msgid "Is Lot Number Propagated"
+msgstr "Номер партії поширено"
+
+#. module: mrp_lot_number_propagation
+#: model:ir.model.fields,field_description:mrp_lot_number_propagation.field_mrp_batch_produce_propagate__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: mrp_lot_number_propagation
+#: model:ir.model.fields,field_description:mrp_lot_number_propagation.field_mrp_batch_produce_propagate__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: mrp_lot_number_propagation
+#: model_terms:ir.ui.view,arch_db:mrp_lot_number_propagation.mrp_production_form_view
+msgid "Lot/Serial Number"
+msgstr "Партія/серійний номер"
+
+#. module: mrp_lot_number_propagation
+#: model_terms:ir.ui.view,arch_db:mrp_lot_number_propagation.view_mrp_batch_produce_propagate_form
+msgid "Mass Produce"
+msgstr "Масове виробництво"
+
+#. module: mrp_lot_number_propagation
+#: model_terms:ir.ui.view,arch_db:mrp_lot_number_propagation.view_mrp_batch_produce_propagate_form
+msgid "Prepare MOs"
+msgstr "Підготувати MO"
+
+#. module: mrp_lot_number_propagation
+#: model_terms:ir.ui.view,arch_db:mrp_lot_number_propagation.view_mrp_batch_produce_propagate_form
+msgid "Produce"
+msgstr "Виробити"
+
+#. module: mrp_lot_number_propagation
+#: model:ir.model.fields,field_description:mrp_lot_number_propagation.field_mrp_bom_line__propagate_lot_number
+#: model:ir.model.fields,field_description:mrp_lot_number_propagation.field_stock_move__propagate_lot_number
+msgid "Propagate Lot Number"
+msgstr "Поширювати номер партії"

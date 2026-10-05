@@ -38,3 +38,26 @@ msgstr "Профілі поширення інформації про парті
 #: model:ir.model.fields,field_description:mrp_propagate_lot_info.field_mrp_lot_info_propagation_profile__name
 msgid "Name"
 msgstr "Назва"
+
+#. module: mrp_propagate_lot_info
+#: model:ir.model.fields,field_description:mrp_propagate_lot_info.field_mrp_lot_info_propagation_profile__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: mrp_propagate_lot_info
+#: model:ir.model.fields,field_description:mrp_propagate_lot_info.field_mrp_lot_info_propagation_profile__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: mrp_propagate_lot_info
+#: model:ir.model.fields,field_description:mrp_propagate_lot_info.field_mrp_bom_line__propagate_lot_field_ids
+#: model:ir.model.fields,field_description:mrp_propagate_lot_info.field_mrp_lot_info_propagation_profile__propagate_lot_field_ids
+#: model:ir.model.fields,field_description:mrp_propagate_lot_info.field_mrp_production__propagate_lot_field_ids
+msgid "Lot fields to propagate"
+msgstr "Поля партії для поширення"
+
+#. module: mrp_propagate_lot_info
+#: model:ir.model.fields,field_description:mrp_propagate_lot_info.field_mrp_bom_line__propagate_lot_profile_id
+#: model:ir.model.fields,field_description:mrp_propagate_lot_info.field_mrp_production__propagate_lot_profile_id
+msgid "Lot propagation profile"
+msgstr "Профіль поширення партії"

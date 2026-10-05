@@ -27,3 +27,28 @@ msgstr "Тип відображення"
 #: model:ir.model.fields.selection,name:mrp_bom_widget_section_and_note_one2many.selection__mrp_bom_line__display_type__line_note
 msgid "Note"
 msgstr "Нотатка"
+
+#. module: mrp_bom_widget_section_and_note_one2many
+#: model_terms:ir.ui.view,arch_db:mrp_bom_widget_section_and_note_one2many.mrp_bom_form_view_section
+msgid "Add a note"
+msgstr "Додати примітку"
+
+#. module: mrp_bom_widget_section_and_note_one2many
+#: model_terms:ir.ui.view,arch_db:mrp_bom_widget_section_and_note_one2many.mrp_bom_form_view_section
+msgid "Add a product"
+msgstr "Додати товар"
+
+#. module: mrp_bom_widget_section_and_note_one2many
+#: model_terms:ir.ui.view,arch_db:mrp_bom_widget_section_and_note_one2many.mrp_bom_form_view_section
+msgid "Add a section"
+msgstr "Додати розділ"
+
+#. module: mrp_bom_widget_section_and_note_one2many
+#: model_terms:ir.ui.view,arch_db:mrp_bom_widget_section_and_note_one2many.mrp_bom_form_view_section
+msgid "Product Attachments"
+msgstr "Вкладення товару"
+
+#. module: mrp_bom_widget_section_and_note_one2many
+#: model:ir.model.fields.selection,name:mrp_bom_widget_section_and_note_one2many.selection__mrp_bom_line__display_type__line_section
+msgid "Section"
+msgstr "Розділ"

@@ -42,7 +42,7 @@ msgstr ""
 #. module: quality_control_oca
 #: model_terms:ir.ui.view,arch_db:quality_control_oca.view_qc_test_set_test_form
 msgid "Accept"
-msgstr ""
+msgstr "Прийняти"
 
 #. module: quality_control_oca
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_inspection__message_needaction
@@ -52,7 +52,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_trigger_product_line__message_needaction
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_trigger_product_template_line__message_needaction
 msgid "Action Needed"
-msgstr ""
+msgstr "Потрібна дія"
 
 #. module: quality_control_oca
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_test__active
@@ -69,17 +69,17 @@ msgstr "Дії"
 #. module: quality_control_oca
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_inspection__activity_exception_decoration
 msgid "Activity Exception Decoration"
-msgstr ""
+msgstr "Оформлення винятку дії"
 
 #. module: quality_control_oca
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_inspection__activity_state
 msgid "Activity State"
-msgstr ""
+msgstr "Стан дії"
 
 #. module: quality_control_oca
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_inspection__activity_type_icon
 msgid "Activity Type Icon"
-msgstr ""
+msgstr "Піктограма типу дії"
 
 #. module: quality_control_oca
 #: model:ir.model.fields.selection,name:quality_control_oca.selection__qc_trigger_line__timing__after
@@ -87,7 +87,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:quality_control_oca.selection__qc_trigger_product_line__timing__after
 #: model:ir.model.fields.selection,name:quality_control_oca.selection__qc_trigger_product_template_line__timing__after
 msgid "After"
-msgstr ""
+msgstr "Після"
 
 #. module: quality_control_oca
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_inspection_line__possible_ql_values
@@ -98,7 +98,7 @@ msgstr "Відповіді"
 #. module: quality_control_oca
 #: model_terms:ir.ui.view,arch_db:quality_control_oca.qc_inspection_form_view
 msgid "Approve"
-msgstr ""
+msgstr "Схвалити"
 
 #. module: quality_control_oca
 #: model_terms:ir.ui.view,arch_db:quality_control_oca.qc_test_form_view
@@ -114,13 +114,13 @@ msgstr "Архівовано"
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_trigger_product_line__message_attachment_count
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_trigger_product_template_line__message_attachment_count
 msgid "Attachment Count"
-msgstr ""
+msgstr "Кількість вкладень"
 
 #. module: quality_control_oca
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_inspection__auto_generated
 #: model_terms:ir.ui.view,arch_db:quality_control_oca.qc_inspection_search_view
 msgid "Auto-generated"
-msgstr ""
+msgstr "Згенеровано автоматично"
 
 #. module: quality_control_oca
 #: model:qc.test.question.value,name:quality_control_oca.qc_test_question_value_2
@@ -133,7 +133,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:quality_control_oca.selection__qc_trigger_product_line__timing__before
 #: model:ir.model.fields.selection,name:quality_control_oca.selection__qc_trigger_product_template_line__timing__before
 msgid "Before"
-msgstr ""
+msgstr "До"
 
 #. module: quality_control_oca
 #: model_terms:ir.ui.view,arch_db:quality_control_oca.qc_inspection_form_view
@@ -144,7 +144,7 @@ msgstr "Скасувати"
 #. module: quality_control_oca
 #: model:ir.model.fields.selection,name:quality_control_oca.selection__qc_inspection__state__canceled
 msgid "Canceled"
-msgstr ""
+msgstr "Скасовано"
 
 #. module: quality_control_oca
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_inspection_line__test_uom_category
@@ -155,7 +155,7 @@ msgstr "Категорія"
 #. module: quality_control_oca
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_test_category__child_ids
 msgid "Child categories"
-msgstr ""
+msgstr "Дочірні категорії"
 
 #. module: quality_control_oca
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_inspection__company_id
@@ -168,7 +168,7 @@ msgstr "Компанія"
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_inspection__date_done
 #: model_terms:ir.ui.view,arch_db:quality_control_oca.qc_inspection_search_view
 msgid "Completion Date"
-msgstr ""
+msgstr "Дата завершення"
 
 #. module: quality_control_oca
 #: model:ir.ui.menu,name:quality_control_oca.menu_qc_config
@@ -178,7 +178,7 @@ msgstr "Конфігурація"
 #. module: quality_control_oca
 #: model_terms:ir.ui.view,arch_db:quality_control_oca.qc_inspection_form_view
 msgid "Confirm"
-msgstr ""
+msgstr "Підтвердити"
 
 #. module: quality_control_oca
 #: model:ir.model.fields,help:quality_control_oca.field_qc_inspection_line__test_uom_category
@@ -191,12 +191,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:quality_control_oca.qc_inspection_line_search_view
 #: model_terms:ir.ui.view,arch_db:quality_control_oca.qc_inspection_search_view
 msgid "Correct"
-msgstr ""
+msgstr "Правильний"
 
 #. module: quality_control_oca
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_test_question_value__ok
 msgid "Correct answer?"
-msgstr ""
+msgstr "Правильна відповідь?"
 
 #. module: quality_control_oca
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_inspection__create_uid
@@ -247,7 +247,7 @@ msgstr "Назва для відображення"
 #: model:ir.model.fields.selection,name:quality_control_oca.selection__qc_inspection__state__draft
 #: model_terms:ir.ui.view,arch_db:quality_control_oca.qc_inspection_form_view
 msgid "Draft"
-msgstr ""
+msgstr "Чернетка"
 
 #. module: quality_control_oca
 #. odoo-python
@@ -258,12 +258,12 @@ msgstr ""
 #. module: quality_control_oca
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_inspection__external_notes
 msgid "External Notes"
-msgstr ""
+msgstr "Зовнішні примітки"
 
 #. module: quality_control_oca
 #: model_terms:ir.ui.view,arch_db:quality_control_oca.qc_inspection_form_view
 msgid "External notes"
-msgstr ""
+msgstr "Зовнішні примітки"
 
 #. module: quality_control_oca
 #: model_terms:ir.ui.view,arch_db:quality_control_oca.qc_inspection_kanban_view
@@ -289,7 +289,7 @@ msgstr "Підписники"
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_trigger_product_line__message_partner_ids
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_trigger_product_template_line__message_partner_ids
 msgid "Followers (Partners)"
-msgstr ""
+msgstr "Підписники (контрагенти)"
 
 #. module: quality_control_oca
 #: model:ir.model.fields,help:quality_control_oca.field_qc_inspection__activity_type_icon
@@ -320,7 +320,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:quality_control_oca.qc_inspection_line_search_view
 #: model_terms:ir.ui.view,arch_db:quality_control_oca.qc_inspection_search_view
 msgid "Group by..."
-msgstr ""
+msgstr "Групувати за..."
 
 #. module: quality_control_oca
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_inspection__has_message
@@ -397,7 +397,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:quality_control_oca.qc_inspection_line_search_view
 #: model_terms:ir.ui.view,arch_db:quality_control_oca.qc_inspection_search_view
 msgid "Incorrect"
-msgstr ""
+msgstr "Неправильно"
 
 #. module: quality_control_oca
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_inspection_line__inspection_id
@@ -409,7 +409,7 @@ msgstr "Інспекція"
 #. module: quality_control_oca
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_inspection__inspection_lines
 msgid "Inspection Lines"
-msgstr ""
+msgstr "Рядки перевірки"
 
 #. module: quality_control_oca
 #: model:ir.actions.act_window,name:quality_control_oca.action_qc_inspection_line
@@ -433,7 +433,7 @@ msgstr "Інспекції"
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_inspection__internal_notes
 #: model_terms:ir.ui.view,arch_db:quality_control_oca.qc_inspection_form_view
 msgid "Internal notes"
-msgstr ""
+msgstr "Внутрішні примітки"
 
 #. module: quality_control_oca
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_inspection__message_is_follower
@@ -483,7 +483,7 @@ msgstr "Керівник"
 #. module: quality_control_oca
 #: model_terms:ir.ui.view,arch_db:quality_control_oca.qc_inspection_form_view
 msgid "Mark todo"
-msgstr ""
+msgstr "Позначити як «Зробити»"
 
 #. module: quality_control_oca
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_inspection_line__max_value
@@ -504,7 +504,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_trigger_product_line__message_has_error
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_trigger_product_template_line__message_has_error
 msgid "Message Delivery error"
-msgstr ""
+msgstr "Помилка доставки повідомлення"
 
 #. module: quality_control_oca
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_inspection__message_ids
@@ -530,7 +530,7 @@ msgstr ""
 #. module: quality_control_oca
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_inspection__my_activity_date_deadline
 msgid "My Activity Deadline"
-msgstr ""
+msgstr "Кінцевий термін моєї дії"
 
 #. module: quality_control_oca
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_test__name
@@ -544,17 +544,17 @@ msgstr "Назва"
 #. module: quality_control_oca
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_inspection__activity_date_deadline
 msgid "Next Activity Deadline"
-msgstr ""
+msgstr "Кінцевий термін наступної дії"
 
 #. module: quality_control_oca
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_inspection__activity_summary
 msgid "Next Activity Summary"
-msgstr ""
+msgstr "Підсумок наступної дії"
 
 #. module: quality_control_oca
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_inspection__activity_type_id
 msgid "Next Activity Type"
-msgstr ""
+msgstr "Тип наступної дії"
 
 #. module: quality_control_oca
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_inspection_line__notes
@@ -571,7 +571,7 @@ msgstr "Нотатки"
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_trigger_product_line__message_needaction_counter
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_trigger_product_template_line__message_needaction_counter
 msgid "Number of Actions"
-msgstr ""
+msgstr "Кількість дій"
 
 #. module: quality_control_oca
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_inspection__message_has_error_counter
@@ -581,7 +581,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_trigger_product_line__message_has_error_counter
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_trigger_product_template_line__message_has_error_counter
 msgid "Number of errors"
-msgstr ""
+msgstr "Кількість помилок"
 
 #. module: quality_control_oca
 #: model:ir.model.fields,help:quality_control_oca.field_qc_inspection__message_needaction_counter
@@ -611,7 +611,7 @@ msgstr ""
 #. module: quality_control_oca
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_test_category__parent_id
 msgid "Parent category"
-msgstr ""
+msgstr "Батьківська категорія"
 
 #. module: quality_control_oca
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_trigger_line__partners
@@ -624,7 +624,7 @@ msgstr "Партнери"
 #. module: quality_control_oca
 #: model:ir.model.fields.selection,name:quality_control_oca.selection__qc_inspection__state__plan
 msgid "Plan"
-msgstr ""
+msgstr "План"
 
 #. module: quality_control_oca
 #: model:ir.model.fields.selection,name:quality_control_oca.selection__qc_trigger_line__timing__plan_ahead
@@ -632,7 +632,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:quality_control_oca.selection__qc_trigger_product_line__timing__plan_ahead
 #: model:ir.model.fields.selection,name:quality_control_oca.selection__qc_trigger_product_template_line__timing__plan_ahead
 msgid "Plan Ahead"
-msgstr ""
+msgstr "Планувати наперед"
 
 #. module: quality_control_oca
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_inspection__date
@@ -664,12 +664,12 @@ msgstr ""
 #: model:ir.model,name:quality_control_oca.model_product_category
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_trigger_product_category_line__product_category
 msgid "Product Category"
-msgstr ""
+msgstr "Категорія товару"
 
 #. module: quality_control_oca
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_trigger_product_template_line__product_template
 msgid "Product Template"
-msgstr ""
+msgstr "Шаблон товару"
 
 #. module: quality_control_oca
 #: model:ir.model,name:quality_control_oca.model_product_product
@@ -686,7 +686,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:quality_control_oca.selection__qc_inspection_line__question_type__qualitative
 #: model:ir.model.fields.selection,name:quality_control_oca.selection__qc_test_question__type__qualitative
 msgid "Qualitative"
-msgstr ""
+msgstr "Якісний"
 
 #. module: quality_control_oca
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_inspection_line__qualitative_value
@@ -723,7 +723,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:quality_control_oca.product_category_qc_form_view
 #: model_terms:ir.ui.view,arch_db:quality_control_oca.product_template_form_view
 msgid "Quality control"
-msgstr ""
+msgstr "Контроль якості"
 
 #. module: quality_control_oca
 #: model:ir.model,name:quality_control_oca.model_qc_inspection
@@ -749,30 +749,30 @@ msgstr ""
 #: model:ir.model,name:quality_control_oca.model_qc_trigger
 #: model_terms:ir.ui.view,arch_db:quality_control_oca.qc_trigger_form_view
 msgid "Quality control trigger"
-msgstr ""
+msgstr "Тригер контролю якості"
 
 #. module: quality_control_oca
 #: model:ir.model.fields,field_description:quality_control_oca.field_product_category__qc_triggers
 #: model:ir.model.fields,field_description:quality_control_oca.field_product_product__qc_triggers
 #: model:ir.model.fields,field_description:quality_control_oca.field_product_template__qc_triggers
 msgid "Quality control triggers"
-msgstr ""
+msgstr "Тригери контролю якості"
 
 #. module: quality_control_oca
 #: model:ir.model.fields.selection,name:quality_control_oca.selection__qc_inspection__state__failed
 msgid "Quality failed"
-msgstr ""
+msgstr "Перевірку якості не пройдено"
 
 #. module: quality_control_oca
 #: model:ir.model.fields.selection,name:quality_control_oca.selection__qc_inspection__state__success
 msgid "Quality success"
-msgstr ""
+msgstr "Перевірку якості пройдено"
 
 #. module: quality_control_oca
 #: model:ir.model.fields.selection,name:quality_control_oca.selection__qc_inspection_line__question_type__quantitative
 #: model:ir.model.fields.selection,name:quality_control_oca.selection__qc_test_question__type__quantitative
 msgid "Quantitative"
-msgstr ""
+msgstr "Кількісний"
 
 #. module: quality_control_oca
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_inspection_line__quantitative_value
@@ -815,7 +815,7 @@ msgstr ""
 #. module: quality_control_oca
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_inspection_line__question_type
 msgid "Question Type"
-msgstr ""
+msgstr "Тип запитання"
 
 #. module: quality_control_oca
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_test__test_lines
@@ -826,7 +826,7 @@ msgstr "Питання"
 #. module: quality_control_oca
 #: model:ir.model.fields.selection,name:quality_control_oca.selection__qc_inspection__state__ready
 msgid "Ready"
-msgstr ""
+msgstr "Готово"
 
 #. module: quality_control_oca
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_inspection__object_id
@@ -852,7 +852,7 @@ msgstr "Відповідальний"
 #. module: quality_control_oca
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_inspection__activity_user_id
 msgid "Responsible User"
-msgstr ""
+msgstr "Відповідальний користувач"
 
 #. module: quality_control_oca
 #: model_terms:ir.ui.view,arch_db:quality_control_oca.qc_inspection_search_view
@@ -868,7 +868,7 @@ msgstr ""
 #: model:ir.actions.act_window,name:quality_control_oca.action_qc_inspection_set_test
 #: model_terms:ir.ui.view,arch_db:quality_control_oca.view_qc_test_set_test_form
 msgid "Select test"
-msgstr ""
+msgstr "Вибрати тест"
 
 #. module: quality_control_oca
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_trigger__partner_selectable
@@ -883,7 +883,7 @@ msgstr "Послідовність"
 #. module: quality_control_oca
 #: model_terms:ir.ui.view,arch_db:quality_control_oca.qc_inspection_form_view
 msgid "Set test"
-msgstr ""
+msgstr "Встановити тест"
 
 #. module: quality_control_oca
 #: model:ir.model,name:quality_control_oca.model_qc_inspection_set_test
@@ -958,7 +958,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_test_question_value__test_line
 #: model_terms:ir.ui.view,arch_db:quality_control_oca.qc_test_question_form_view
 msgid "Test question"
-msgstr ""
+msgstr "Тестове запитання"
 
 #. module: quality_control_oca
 #: model:ir.actions.act_window,name:quality_control_oca.action_qc_test
@@ -1042,7 +1042,7 @@ msgstr "Користувач"
 #. module: quality_control_oca
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_inspection_line__valid_values
 msgid "Valid values"
-msgstr ""
+msgstr "Допустимі значення"
 
 #. module: quality_control_oca
 #: model:ir.model.fields,help:quality_control_oca.field_qc_inspection_line__qualitative_value
@@ -1067,7 +1067,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_trigger_product_line__website_message_ids
 #: model:ir.model.fields,field_description:quality_control_oca.field_qc_trigger_product_template_line__website_message_ids
 msgid "Website Messages"
-msgstr ""
+msgstr "Повідомлення вебсайту"
 
 #. module: quality_control_oca
 #: model:ir.model.fields,help:quality_control_oca.field_qc_inspection__website_message_ids

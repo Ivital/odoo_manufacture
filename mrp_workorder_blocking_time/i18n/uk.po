@@ -32,3 +32,35 @@ msgstr "Відображувана назва"
 #: model_terms:ir.ui.view,arch_db:mrp_workorder_blocking_time.mrp_workorder_blocking_reason_wizard_form_view
 msgid "Warning"
 msgstr "Попередження"
+
+#. module: mrp_workorder_blocking_time
+#: model:ir.model.fields,field_description:mrp_workorder_blocking_time.field_mrp_routing_workcenter__blocking_stage
+msgid "Blocking Stage"
+msgstr "Етап блокування"
+
+#. module: mrp_workorder_blocking_time
+#: model:ir.model.fields,field_description:mrp_workorder_blocking_time.field_mrp_workorder__interruption_reason
+#: model:ir.model.fields,field_description:mrp_workorder_blocking_time.field_mrp_workorder_blocking_reason_wizard__interruption_reason
+msgid "Interruption Reason"
+msgstr "Причина переривання"
+
+#. module: mrp_workorder_blocking_time
+#: model:ir.model.fields,field_description:mrp_workorder_blocking_time.field_mrp_workorder_blocking_reason_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: mrp_workorder_blocking_time
+#: model:ir.model.fields,field_description:mrp_workorder_blocking_time.field_mrp_workorder_blocking_reason_wizard__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: mrp_workorder_blocking_time
+#: model_terms:ir.ui.view,arch_db:mrp_workorder_blocking_time.mrp_routing_workcenter_blocking_time_tree_inherit
+#: model_terms:ir.ui.view,arch_db:mrp_workorder_blocking_time.mrp_routing_workcenter_bom_blocking_time_tree_inherit
+msgid "Rec. Blocking Time (hours)"
+msgstr "Рекомендований час блокування (години)"
+
+#. module: mrp_workorder_blocking_time
+#: model_terms:ir.ui.view,arch_db:mrp_workorder_blocking_time.mrp_routing_workcenter_blocking_time_form_inherit
+msgid "hours"
+msgstr "години"

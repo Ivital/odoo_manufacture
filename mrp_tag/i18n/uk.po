@@ -65,3 +65,13 @@ msgstr "Назва тегу"
 #: model_terms:ir.ui.view,arch_db:mrp_tag.mrp_tag_view_form
 msgid "Tags"
 msgstr "Теги"
+
+#. module: mrp_tag
+#: model:ir.model.fields,field_description:mrp_tag.field_mrp_tag__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: mrp_tag
+#: model:ir.model.fields,field_description:mrp_tag.field_mrp_tag__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"

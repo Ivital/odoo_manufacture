@@ -1,0 +1,40 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 10:13+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: account_move_line_mrp_info
+#: model:ir.model.fields,field_description:account_move_line_mrp_info.field_mrp_production__account_move_line_ids
+#: model:ir.model.fields,field_description:account_move_line_mrp_info.field_mrp_unbuild__account_move_line_ids
+msgid "Account Move Line"
+msgstr "Рядок бухгалтерського проведення"
+
+#. module: account_move_line_mrp_info
+#: model:ir.actions.act_window,name:account_move_line_mrp_info.action_view_journal_items
+#: model_terms:ir.ui.view,arch_db:account_move_line_mrp_info.mrp_production_form_view
+#: model_terms:ir.ui.view,arch_db:account_move_line_mrp_info.mrp_unbuild_form_view
+msgid "Journal Items"
+msgstr "Проведення журналу"
+
+#. module: account_move_line_mrp_info
+#: model:ir.model,name:account_move_line_mrp_info.model_mrp_production
+#: model:ir.model.fields,field_description:account_move_line_mrp_info.field_account_move_line__mrp_production_id
+#: model_terms:ir.ui.view,arch_db:account_move_line_mrp_info.view_account_move_line_filter
+msgid "Manufacturing Order"
+msgstr "Виробниче замовлення"
+
+#. module: account_move_line_mrp_info
+#: model:ir.model,name:account_move_line_mrp_info.model_mrp_unbuild
+#: model:ir.model.fields,field_description:account_move_line_mrp_info.field_account_move_line__unbuild_id
+msgid "Unbuild Order"
+msgstr "Замовлення на розбирання"

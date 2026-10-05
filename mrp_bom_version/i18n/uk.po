@@ -35,3 +35,81 @@ msgstr "Версія"
 #: model_terms:ir.ui.view,arch_db:mrp_bom_version.mrp_bom_version_form_view
 msgid "Versions"
 msgstr "Версії"
+
+#. module: mrp_bom_version
+#: model_terms:ir.ui.view,arch_db:mrp_bom_version.mrp_bom_version_form_view
+#: model_terms:ir.ui.view,arch_db:mrp_bom_version.mrp_bom_version_tree_view
+msgid "Activate"
+msgstr "Активувати"
+
+#. module: mrp_bom_version
+#: model:ir.model.fields,field_description:mrp_bom_version.field_res_config_settings__group_mrp_bom_version
+#: model_terms:ir.ui.view,arch_db:mrp_bom_version.mrp_config_settings_versioning
+msgid "Allow to re-edit BoMs"
+msgstr "Дозволити повторне редагування специфікацій"
+
+#. module: mrp_bom_version
+#: model:ir.model.fields.selection,name:mrp_bom_version.selection__mrp_bom__state__draft
+#: model_terms:ir.ui.view,arch_db:mrp_bom_version.mrp_bom_version_form_view
+#: model_terms:ir.ui.view,arch_db:mrp_bom_version.mrp_bom_version_tree_view
+msgid "Draft"
+msgstr "Чернетка"
+
+#. module: mrp_bom_version
+#: model:ir.model.fields.selection,name:mrp_bom_version.selection__mrp_bom__state__historical
+#: model_terms:ir.ui.view,arch_db:mrp_bom_version.mrp_bom_version_form_view
+#: model_terms:ir.ui.view,arch_db:mrp_bom_version.mrp_bom_version_tree_view
+msgid "Historical"
+msgstr "Історичний"
+
+#. module: mrp_bom_version
+#: model:ir.model.fields,field_description:mrp_bom_version.field_mrp_bom__historical_date
+msgid "Historical Date"
+msgstr "Історична дата"
+
+#. module: mrp_bom_version
+#: model:ir.model.fields,field_description:mrp_bom_version.field_res_config_settings__active_draft
+#: model_terms:ir.ui.view,arch_db:mrp_bom_version.mrp_config_settings_versioning
+msgid "Keep re-editing BoM active"
+msgstr "Зберігати повторне редагування BOM активним"
+
+#. module: mrp_bom_version
+#: model_terms:ir.ui.view,arch_db:mrp_bom_version.mrp_bom_version_form_view
+#: model_terms:ir.ui.view,arch_db:mrp_bom_version.mrp_bom_version_tree_view
+msgid "New version"
+msgstr "Нова версія"
+
+#. module: mrp_bom_version
+#: model:ir.model.fields,field_description:mrp_bom_version.field_mrp_bom__old_versions
+msgid "Old Versions"
+msgstr "Старі версії"
+
+#. module: mrp_bom_version
+#: model:ir.model.fields,field_description:mrp_bom_version.field_mrp_bom__previous_bom_id
+msgid "Previous BoM"
+msgstr "Попередня специфікація"
+
+#. module: mrp_bom_version
+#: model_terms:ir.ui.view,arch_db:mrp_bom_version.mrp_bom_version_form_view
+#: model_terms:ir.ui.view,arch_db:mrp_bom_version.mrp_bom_version_tree_view
+msgid "You are going to create a new version of this BoM. Are you sure?"
+msgstr "Ви збираєтеся створити нову версію цієї BOM. Ви впевнені?"
+
+#. module: mrp_bom_version
+#: model_terms:ir.ui.view,arch_db:mrp_bom_version.mrp_bom_version_form_view
+#: model_terms:ir.ui.view,arch_db:mrp_bom_version.mrp_bom_version_tree_view
+msgid ""
+"You are going to historize an BoM. Doing, not be able to unlock it unless "
+"you make a copy. Are you sure you want to proceed?"
+msgstr ""
+"Ви збираєтеся архівувати BOM. Після цього розблокувати її буде неможливо без"
+" створення копії. Продовжити?"
+
+#. module: mrp_bom_version
+#: model_terms:ir.ui.view,arch_db:mrp_bom_version.mrp_bom_version_form_view
+#: model_terms:ir.ui.view,arch_db:mrp_bom_version.mrp_bom_version_tree_view
+msgid ""
+"You will activate the BoM, then you won't be able to edit it after this. Are"
+" you sure you want to proceed?"
+msgstr ""
+"Ви активуєте BOM, після чого редагувати її буде неможливо. Продовжити?"

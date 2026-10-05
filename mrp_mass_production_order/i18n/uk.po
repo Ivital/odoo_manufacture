@@ -67,3 +67,46 @@ msgstr "Теги"
 #: model:ir.model.fields,field_description:mrp_mass_production_order.field_mrp_mass_production_order_wizard__with_bom
 msgid "With Bom"
 msgstr "З BoM"
+
+#. module: mrp_mass_production_order
+#: model:ir.model.fields,field_description:mrp_mass_production_order.field_mrp_mass_production_order_entry_wizard__bom_id
+msgid "Bill of Material"
+msgstr "Специфікація"
+
+#. module: mrp_mass_production_order
+#: model_terms:ir.ui.view,arch_db:mrp_mass_production_order.wizard_mass_mrp_production_order
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: mrp_mass_production_order
+#: model:ir.model.fields,field_description:mrp_mass_production_order.field_mrp_mass_production_order_entry_wizard__product_consumed_id
+msgid "Consumed Product"
+msgstr "Спожитий товар"
+
+#. module: mrp_mass_production_order
+#: model:ir.model.fields,field_description:mrp_mass_production_order.field_mrp_mass_production_order_entry_wizard__write_uid
+#: model:ir.model.fields,field_description:mrp_mass_production_order.field_mrp_mass_production_order_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: mrp_mass_production_order
+#: model:ir.model.fields,field_description:mrp_mass_production_order.field_mrp_mass_production_order_entry_wizard__write_date
+#: model:ir.model.fields,field_description:mrp_mass_production_order.field_mrp_mass_production_order_wizard__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: mrp_mass_production_order
+#: model:ir.model,name:mrp_mass_production_order.model_mrp_mass_production_order_entry_wizard
+#: model:ir.model.fields,field_description:mrp_mass_production_order.field_mrp_mass_production_order_wizard__mrp_production_order_entries
+msgid "MRP production order entries"
+msgstr "Проведення виробничого замовлення MRP"
+
+#. module: mrp_mass_production_order
+#: model:ir.model.fields,field_description:mrp_mass_production_order.field_mrp_mass_production_order_wizard__picking_type_id
+msgid "Operation Type"
+msgstr "Тип операції"
+
+#. module: mrp_mass_production_order
+#: model:ir.model.fields,field_description:mrp_mass_production_order.field_mrp_mass_production_order_entry_wizard__product_uom_id
+msgid "Product Unit of Measure"
+msgstr "Одиниця вимірювання товару"

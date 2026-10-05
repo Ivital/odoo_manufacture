@@ -18,3 +18,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mrp_bom_warn_message_oca.mrp_bom_form_view_warn_inherit
 msgid "Warning"
 msgstr "Попередження"
+
+#. module: mrp_bom_warn_message_oca
+#: model:ir.model.fields.selection,name:mrp_bom_warn_message_oca.selection__mrp_bom__production_warn__no-message
+msgid "No Message"
+msgstr "Немає повідомлення"

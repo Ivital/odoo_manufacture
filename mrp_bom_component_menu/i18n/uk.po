@@ -18,3 +18,18 @@ msgstr ""
 #: model:ir.ui.menu,name:mrp_bom_component_menu.menu_mrp_bom_form_action2
 msgid "Bill of Material Components"
 msgstr "Компоненти специфікації"
+
+#. module: mrp_bom_component_menu
+#: model_terms:ir.ui.view,arch_db:mrp_bom_component_menu.mrp_bom_line_view_filter
+msgid "Bill Of Material"
+msgstr "Специфікація"
+
+#. module: mrp_bom_component_menu
+#: model_terms:ir.ui.view,arch_db:mrp_bom_component_menu.mrp_bom_line_view_filter
+msgid "Default Unit of Measure"
+msgstr "Типова одиниця вимірювання"
+
+#. module: mrp_bom_component_menu
+#: model_terms:ir.ui.view,arch_db:mrp_bom_component_menu.mrp_bom_line_view_filter
+msgid "Group By..."
+msgstr "Групувати за..."

@@ -17,3 +17,15 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp_repair_order.field_mrp_production__repair_id
 msgid "Repair"
 msgstr "Ремонт"
+
+#. module: mrp_repair_order
+#: model_terms:ir.ui.view,arch_db:mrp_repair_order.view_mrp_production_form_inherit
+msgid "<span class=\"o_stat_text\">Repair order</span>"
+msgstr "<span class=\"o_stat_text\">Замовлення на ремонт</span>"
+
+#. module: mrp_repair_order
+#. odoo-python
+#: code:addons/mrp_repair_order/models/mrp.py:0
+#: model_terms:ir.ui.view,arch_db:mrp_repair_order.view_mrp_production_form_inherit
+msgid "Create Repair Order"
+msgstr "Створити замовлення на ремонт"

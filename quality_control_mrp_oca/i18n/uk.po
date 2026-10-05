@@ -23,3 +23,19 @@ msgstr "Інспекції"
 #: model_terms:ir.ui.view,arch_db:quality_control_mrp_oca.qc_inspection_search_view_production
 msgid "Production"
 msgstr "Виробництво"
+
+#. module: quality_control_mrp_oca
+#: model:ir.model.fields,field_description:quality_control_mrp_oca.field_mrp_production__created_inspections
+msgid "Created inspections"
+msgstr "Створені перевірки"
+
+#. module: quality_control_mrp_oca
+#: model:ir.model.fields,field_description:quality_control_mrp_oca.field_qc_inspection_line__production_id
+#: model_terms:ir.ui.view,arch_db:quality_control_mrp_oca.qc_inspection_line_search_production_view
+msgid "Production order"
+msgstr "Виробниче замовлення"
+
+#. module: quality_control_mrp_oca
+#: model_terms:ir.ui.view,arch_db:quality_control_mrp_oca.mrp_production_qc_view
+msgid "inspections"
+msgstr "перевірки"

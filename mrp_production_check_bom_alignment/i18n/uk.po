@@ -27,3 +27,34 @@ msgstr "Створено"
 #: model:ir.model.fields,field_description:mrp_production_check_bom_alignment.field_mrp_bom_alignment_warning__display_name
 msgid "Display Name"
 msgstr "Відображувана назва"
+
+#. module: mrp_production_check_bom_alignment
+#: model:ir.model,name:mrp_production_check_bom_alignment.model_mrp_bom_alignment_warning
+#: model_terms:ir.ui.view,arch_db:mrp_production_check_bom_alignment.view_mrp_bom_alignment_warning_form
+msgid "BoM Alignment Warning"
+msgstr "Попередження про узгодження специфікації"
+
+#. module: mrp_production_check_bom_alignment
+#: model_terms:ir.ui.view,arch_db:mrp_production_check_bom_alignment.view_mrp_bom_alignment_warning_form
+msgid "Confirm Anyway"
+msgstr "Усе одно підтвердити"
+
+#. module: mrp_production_check_bom_alignment
+#: model_terms:ir.ui.view,arch_db:mrp_production_check_bom_alignment.view_mrp_bom_alignment_warning_form
+msgid "Go Back"
+msgstr "Повернутися"
+
+#. module: mrp_production_check_bom_alignment
+#: model:ir.model.fields,field_description:mrp_production_check_bom_alignment.field_mrp_bom_alignment_warning__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: mrp_production_check_bom_alignment
+#: model:ir.model.fields,field_description:mrp_production_check_bom_alignment.field_mrp_bom_alignment_warning__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: mrp_production_check_bom_alignment
+#: model:ir.model.fields,field_description:mrp_production_check_bom_alignment.field_mrp_bom_alignment_warning__mrp_production_ids
+msgid "Mrp Production"
+msgstr "Виробництво MRP"

@@ -1,0 +1,324 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:39+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_planned_order__mrp_action
+msgid "Action"
+msgstr "Дія"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_area__active
+#: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__active
+msgid "Active"
+msgstr "Активний"
+
+#. module: mrp_multi_level
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.mrp_area_form
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.product_mrp_area_form
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.product_mrp_area_search
+msgid "Archived"
+msgstr "Архівовано"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_area__company_id
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory__company_id
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_move__company_id
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_planned_order__company_id
+#: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__company_id
+msgid "Company"
+msgstr "Компанія"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields.selection,name:mrp_multi_level.selection__mrp_move__state__confirmed
+msgid "Confirmed"
+msgstr "Підтверджено"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_area__create_uid
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory__create_uid
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory_procure__create_uid
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory_procure_item__create_uid
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_move__create_uid
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_multi_level__create_uid
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_planned_order__create_uid
+#: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_area__create_date
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory__create_date
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory_procure__create_date
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory_procure_item__create_date
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_move__create_date
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_multi_level__create_date
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_planned_order__create_date
+#: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_move__current_qty
+msgid "Current Qty"
+msgstr "Поточна кількість"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory__date
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.mrp_inventory_search
+msgid "Date"
+msgstr "Дата"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory__demand_qty
+#: model:ir.model.fields.selection,name:mrp_multi_level.selection__mrp_move__mrp_type__d
+msgid "Demand"
+msgstr "Попит"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_move__name
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_planned_order__name
+msgid "Description"
+msgstr "Опис"
+
+#. module: mrp_multi_level
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.mrp_inventory_list
+msgid "Details"
+msgstr "Деталі"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_area__display_name
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory__display_name
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory_procure__display_name
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory_procure_item__display_name
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_move__display_name
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_multi_level__display_name
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_planned_order__display_name
+#: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_planned_order__due_date
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.mrp_planned_order_view_search
+msgid "Due Date"
+msgstr "Термін оплати"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_planned_order__fixed
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.mrp_planned_order_view_search
+msgid "Fixed"
+msgstr "Фіксований"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields.selection,name:mrp_multi_level.selection__mrp_move__mrp_origin__fc
+msgid "Forecast"
+msgstr "Прогноз"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory_procure__item_ids
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.view_mrp_inventory_procure_wizard
+msgid "Items"
+msgstr "Елементи"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields.selection,name:mrp_multi_level.selection__mrp_planned_order__mrp_action__phantom
+#: model:ir.model.fields.selection,name:mrp_multi_level.selection__product_mrp_area__supply_method__phantom
+msgid "Kit"
+msgstr "Комплект"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__mrp_lead_time
+msgid "Lead Time"
+msgstr "Час виконання"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_area__location_id
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory_procure_item__location_id
+#: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__location_id
+msgid "Location"
+msgstr "Розташування"
+
+#. module: mrp_multi_level
+#: model:ir.actions.act_window,name:mrp_multi_level.mrp_area_action
+#: model:ir.model,name:mrp_multi_level.model_mrp_area
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory__mrp_area_id
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_move__mrp_area_id
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_planned_order__mrp_area_id
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.mrp_area_form
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.mrp_inventory_search
+msgid "MRP Area"
+msgstr "Область MRP"
+
+#. module: mrp_multi_level
+#: model:ir.ui.menu,name:mrp_multi_level.menu_mrp_areas
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.product_template_only_form_view_mrp
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.view_location_form
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.view_mrp_product_product_form
+msgid "MRP Areas"
+msgstr "Області MRP"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_move__mrp_date
+msgid "MRP Date"
+msgstr "Дата MRP"
+
+#. module: mrp_multi_level
+#: model:ir.actions.act_window,name:mrp_multi_level.mrp_inventory_action
+#: model:ir.ui.menu,name:mrp_multi_level.menu_mrp_inventory
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.mrp_inventory_form
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.mrp_inventory_search
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.view_mrp_inventory_graph
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.view_mrp_inventory_pivot
+msgid "MRP Inventory"
+msgstr "Запаси MRP"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_planned_order__mo_count
+msgid "Mo Count"
+msgstr "Кількість MO"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields.selection,name:mrp_multi_level.selection__mrp_move__mrp_origin__mv
+msgid "Move"
+msgstr "Переміщення"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__mrp_area_id
+msgid "Mrp Area"
+msgstr "Область MRP"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__mrp_move_ids
+msgid "Mrp Move"
+msgstr "Переміщення MRP"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory__mrp_planner_id
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_planned_order__mrp_planner_id
+#: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__mrp_planner_id
+msgid "Mrp Planner"
+msgstr "Планувальник MRP"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_area__name
+msgid "Name"
+msgstr "Назва"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__mrp_nbr_days
+msgid "Nbr. Days"
+msgstr "Кільк. днів"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_move__mrp_order_number
+msgid "Order Number"
+msgstr "Номер замовлення"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_move__mrp_origin
+msgid "Origin"
+msgstr "Походження"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory_procure_item__date_planned
+msgid "Planned Date"
+msgstr "Запланована дата"
+
+#. module: mrp_multi_level
+#. odoo-python
+#: code:addons/mrp_multi_level/models/mrp_inventory.py:0
+#: model:ir.actions.act_window,name:mrp_multi_level.mrp_planned_order_action
+#: model:ir.ui.menu,name:mrp_multi_level.menu_mrp_planned_order
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.product_mrp_area_form
+msgid "Planned Orders"
+msgstr "Заплановані замовлення"
+
+#. module: mrp_multi_level
+#: model:ir.actions.act_window,name:mrp_multi_level.product_mrp_area_action
+#: model:ir.ui.menu,name:mrp_multi_level.menu_product_mrp_area_parameters
+msgid "Product MRP Area Parameters"
+msgstr "Параметри областей MRP товарів"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory__uom_id
+msgid "Product UoM"
+msgstr "Од. вим. товару"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory_procure_item__qty
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_planned_order__mrp_qty
+msgid "Quantity"
+msgstr "Кількість"
+
+#. module: mrp_multi_level
+#: model:ir.ui.menu,name:mrp_multi_level.menu_mrp_multi_level
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.view_run_mrp_multi_level_wizard
+msgid "Run MRP Multi Level"
+msgstr "Запустити багаторівневий MRP"
+
+#. module: mrp_multi_level
+#. odoo-python
+#: code:addons/mrp_multi_level/wizards/mrp_multi_level.py:0
+#: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__mrp_minimum_stock
+msgid "Safety Stock"
+msgstr "Страховий запас"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields.selection,name:mrp_multi_level.selection__mrp_move__state__sent
+msgid "Sent"
+msgstr "Надіслано"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_move__state
+msgid "State"
+msgstr "Стан"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_move__stock_move_id
+msgid "Stock Move"
+msgstr "Складське переміщення"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory__supply_qty
+#: model:ir.model.fields.selection,name:mrp_multi_level.selection__mrp_move__mrp_type__s
+msgid "Supply"
+msgstr "Постачання"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__supply_bom_id
+msgid "Supply BoM"
+msgstr "BoM постачання"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory__to_procure
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.mrp_inventory_search
+msgid "To Procure"
+msgstr "До закупівлі"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_move__mrp_type
+msgid "Type"
+msgstr "Тип"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_area__warehouse_id
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory_procure_item__warehouse_id
+msgid "Warehouse"
+msgstr "Склад"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory_procure_item__wiz_id
+msgid "Wizard"
+msgstr "Майстер"
